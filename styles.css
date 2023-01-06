@@ -1,3 +1,4 @@
+
 /* ESTILOS GLOBALES */
 
 html,
@@ -58,7 +59,7 @@ body {
 /* BODY */
 #_body {
     position: relative;
-    height: 3000px;
+    height: 3135px;
     width: 100%;
 
 }
@@ -89,15 +90,20 @@ body {
     height: 100%;
 }
 
-#imgLeft1 {
+.imgLeft1 {
     position: relative;
     width: 100%;
     height: 100%;
+    display: flex;
 }
 
-#img1-inicio{
+.video-inicio{
+    position: relative;
+        
     width: 110%;
     height: 100%;
+    border-top-right-radius: 85%;
+    
 }
 
 
@@ -117,9 +123,43 @@ body {
   
 }
 
-#img3-inicio{
-    width: 90%;
-    margin-top: 10%;
+.cuadricula{
+    position: relative;
+    width: 16%;
+    left: 15%;
+    top: -6%;
+    z-index: 2;
+}
+
+.triangleinicio{
+    position: relative;
+    top: 10%;
+    left: -12%;
+    width: 30%;
+    z-index: 1;
+}
+
+.header-inicio{
+    position: relative;
+    top: -30%;
+   font-family:"HeadingNowTrial" ; 
+   font-size: 6rem;
+   font-weight: 550;
+   color: #141433;
+   line-height: 0.7;
+   margin-left: 10%;
+   margin-top: 30%;
+   z-index: 9;
+}
+.subheader-inicio{
+    position: relative;
+    top: -29%;
+    font-family:"HeadingNowTrial" ;
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: #141433;  
+    margin-left: 15%;
+    margin-top: -15%;
 }
 
 #imgRight2 {
@@ -128,10 +168,11 @@ body {
 }
 
 #img2-inicio{
-
-    margin-left: 30%;
+    position: relative;
+    bottom: 30%;
+    left: 43%;
     width: 8%;
-    margin-top: 10%;
+    margin-top: 0%;
 }
 
 
@@ -141,9 +182,171 @@ body {
 #services {
     position: relative;
     width: 100%;
-    height: 600px;
-    background-color: #1c990c;
+    height: 735px;
+    background-color: #3355FF;
 }
+#services-container{
+    display: flex;
+}
+
+#rayas{
+    height: 100%;
+   
+}
+
+#img-rayas{
+    height: 250px;
+    width: 80px;
+   margin-top: 40px;
+   margin-left: -20px;
+}
+
+
+
+.header-services{
+    position: relative;
+    top: -5%;
+    left: 24%;
+    font-family: "HeadingNowTrial";
+    font-size: 5rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.services-info2{
+    position: relative;
+    display: grid;
+    grid-auto-flow: column;
+    left: 8%;
+    width: 150%;
+
+}
+
+.img-services{
+    margin-top: 8%;
+    margin-left: 12%;
+    
+}
+
+#imgservice1{
+    position: relative;
+    left: 15;
+    width: 61%;
+    z-index: 1;
+}
+
+.contador-container{
+    position: relative;
+    width: 64%;
+    height: 130px;
+    bottom: 58px;
+    left: 3%;
+    background-color: #00FF94C2;
+    border-radius: 5%;
+    border-bottom-right-radius: 80px;
+    z-index: 9;
+}
+
+.contador{
+    
+    display: grid;
+    grid-auto-flow: column;
+
+}
+
+
+.txtcontador{
+    position: relative;
+    left: 20px;
+    top: 35%;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-family:"BarlowCondensed-Regular";
+    font-size: 3rem;
+}
+
+.txtcontador span{
+    font-size: 2rem;
+}
+
+.smallcontador-container{
+
+    display: grid;
+    grid-auto-flow: column;
+
+}
+
+.smallcontador{
+    position: relative;
+    left: 40px;
+    top: 70%;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-family:"BarlowCondensed-Regular";
+    font-size: 1.2rem;
+
+}
+
+.cuadricula-services{
+    margin: 20px auto;
+    width:400px;
+    height:400px;
+    display:grid;
+    grid-template-columns: 55% 55%;
+    grid-template-rows: 40% 40%;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    position: relative;
+    bottom: -2%;
+   
+    }
+
+    .box{
+      background-color:#5c77ff;
+      padding:20px;
+      border-radius:10px;
+      color:#fff;
+      display:block;
+      align-items:center;
+      justify-content:center;
+      font-size:40px;
+      font-family:sans-serif;
+    }
+
+    .box-header{
+        font-family: "BarlowCondensed-ExtraBoldItalic";
+        font-size: 0.7rem;
+        position: relative;
+        top: -70%;
+        
+    }
+
+    .box-txt{
+        font-family: "BarlowCondensed-Regular";
+        font-size: 0.7rem;
+        position: relative;
+        top: -90%;
+    }
+
+    .box-circle{
+        width: 24%;
+        height: 30%;
+        border-radius: 100%;
+        position: relative;
+        top: -65%;
+        left: -5%;
+    }  
+    
+    .box-img{
+        position: relative;
+        top: -33%;
+        left: -2%;
+        width: 26%;
+        height: 30%;
+        z-index: 2;
+    }
 
 /* WORK */
 

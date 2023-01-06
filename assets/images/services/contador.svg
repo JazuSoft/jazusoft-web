@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="374" height="120" viewBox="0 0 374 120">
+  <g id="Grupo_262" data-name="Grupo 262" transform="translate(-219 -1373)">
+    <path id="Rectángulo_136" data-name="Rectángulo 136" d="M8,0H366a8,8,0,0,1,8,8V38a82,82,0,0,1-82,82H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0Z" transform="translate(219 1373)" fill="rgba(0,255,148,0.76)"/>
+    <text id="_150" data-name="+150" transform="translate(245 1441)" fill="#fff" font-size="53" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">+150</tspan></text>
+    <text id="dato_A" data-name="dato A" transform="translate(260 1469)" fill="#fff" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">dato A</tspan></text>
+    <text id="_20" data-name="+20" transform="translate(363 1441)" fill="#fff" font-size="53" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">+20</tspan></text>
+    <text id="dato_B" data-name="dato B" transform="translate(370 1469)" fill="#fff" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">dato B</tspan></text>
+    <text id="_3" data-name="+3" transform="translate(486 1441)" fill="#fff" font-size="53" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">+3</tspan></text>
+    <text id="dato_C" data-name="dato C" transform="translate(481 1469)" fill="#fff" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">dato C</tspan></text>
+  </g>
+</svg>
