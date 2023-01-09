@@ -1,4 +1,3 @@
-
 /* ESTILOS GLOBALES */
 
 html,
@@ -59,7 +58,7 @@ body {
 /* BODY */
 #_body {
     position: relative;
-    height: 3135px;
+    height: 3735px;
     width: 100%;
 
 }
@@ -97,13 +96,13 @@ body {
     display: flex;
 }
 
-.video-inicio{
+.video-inicio {
     position: relative;
-        
+
     width: 110%;
     height: 100%;
     border-top-right-radius: 85%;
-    
+
 }
 
 
@@ -120,10 +119,10 @@ body {
 #imgRight3 {
     width: 100%;
     height: 100%;
-  
+
 }
 
-.cuadricula{
+.cuadricula {
     position: relative;
     width: 16%;
     left: 15%;
@@ -131,7 +130,7 @@ body {
     z-index: 2;
 }
 
-.triangleinicio{
+.triangleinicio {
     position: relative;
     top: 10%;
     left: -12%;
@@ -139,25 +138,26 @@ body {
     z-index: 1;
 }
 
-.header-inicio{
+.header-inicio {
     position: relative;
     top: -30%;
-   font-family:"HeadingNowTrial" ; 
-   font-size: 6rem;
-   font-weight: 550;
-   color: #141433;
-   line-height: 0.7;
-   margin-left: 10%;
-   margin-top: 30%;
-   z-index: 9;
+    font-family: "HeadingNowTrial";
+    font-size: 6rem;
+    font-weight: 550;
+    color: #141433;
+    line-height: 0.7;
+    margin-left: 10%;
+    margin-top: 30%;
+    z-index: 9;
 }
-.subheader-inicio{
+
+.subheader-inicio {
     position: relative;
     top: -29%;
-    font-family:"HeadingNowTrial" ;
+    font-family: "HeadingNowTrial";
     font-size: 2.2rem;
     font-weight: 300;
-    color: #141433;  
+    color: #141433;
     margin-left: 15%;
     margin-top: -15%;
 }
@@ -167,7 +167,7 @@ body {
     height: 100%;
 }
 
-#img2-inicio{
+#img2-inicio {
     position: relative;
     bottom: 30%;
     left: 43%;
@@ -185,25 +185,26 @@ body {
     height: 735px;
     background-color: #3355FF;
 }
-#services-container{
+
+#services-container {
     display: flex;
 }
 
-#rayas{
+#rayas {
     height: 100%;
-   
+
 }
 
-#img-rayas{
+#img-rayas {
     height: 250px;
     width: 80px;
-   margin-top: 40px;
-   margin-left: -20px;
+    margin-top: 40px;
+    margin-left: -20px;
 }
 
 
 
-.header-services{
+.header-services {
     position: relative;
     top: -5%;
     left: 24%;
@@ -214,7 +215,7 @@ body {
     position: relative;
 }
 
-.services-info2{
+.services-info2 {
     position: relative;
     display: grid;
     grid-auto-flow: column;
@@ -223,20 +224,20 @@ body {
 
 }
 
-.img-services{
+.img-services {
     margin-top: 8%;
     margin-left: 12%;
-    
+
 }
 
-#imgservice1{
+#imgservice1 {
     position: relative;
     left: 15;
     width: 61%;
     z-index: 1;
 }
 
-.contador-container{
+.contador-container {
     position: relative;
     width: 64%;
     height: 130px;
@@ -248,52 +249,52 @@ body {
     z-index: 9;
 }
 
-.contador{
-    
+.contador {
+
     display: grid;
     grid-auto-flow: column;
-    
+
 
 }
 
 
-.txtcontador{
+.txtcontador {
     position: relative;
     left: 20px;
     top: 35%;
     color: #FFFFFF;
     font-weight: 200;
-    font-family:"BarlowCondensed-Regular";
+    font-family: "BarlowCondensed-Regular";
     font-size: 3rem;
 }
 
-.txtcontador span{
+.txtcontador span {
     font-size: 2rem;
 }
 
-.smallcontador-container{
+.smallcontador-container {
 
     display: grid;
     grid-auto-flow: column;
 
 }
 
-.smallcontador{
+.smallcontador {
     position: relative;
     left: 40px;
     top: 70%;
     color: #FFFFFF;
     font-weight: 200;
-    font-family:"BarlowCondensed-Regular";
+    font-family: "BarlowCondensed-Regular";
     font-size: 1.2rem;
 
 }
 
-.cuadricula-services{
+.cuadricula-services {
     margin: 20px auto;
-    width:400px;
-    height:400px;
-    display:grid;
+    width: 400px;
+    height: 400px;
+    display: grid;
     grid-template-columns: 55% 55%;
     grid-template-rows: 40% 40%;
     grid-row: auto auto;
@@ -301,64 +302,68 @@ body {
     grid-row-gap: 50px;
     position: relative;
     bottom: -2%;
-   
-    }
 
-    .box{
-      background-color:#5c77ff;
-      padding:20px;
-      border-radius:10px;
-      color:#fff;
-      display:block;
-      align-items:center;
-      justify-content:center;
-      font-size:40px;
-      font-family:sans-serif;
-    }
+}
 
-    .box-header{
-        font-family: "BarlowCondensed-ExtraBoldItalic";
-        font-size: 0.7rem;
-        position: relative;
-        top: -70%;
-        
-    }
+.box {
+    background-color: #5c77ff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
 
-    .box-txt{
-        font-family: "BarlowCondensed-Regular";
-        font-size: 0.7rem;
-        position: relative;
-        top: -90%;
-    }
+.box-header {
+    font-family: "BarlowCondensed-ExtraBoldItalic";
+    font-size: 0.7rem;
+    position: relative;
+    top: -70%;
 
-    .box-circle{
-        width: 24%;
-        height: 30%;
-        border-radius: 100%;
-        position: relative;
-        top: -65%;
-        left: -5%;
-    }  
-    
-    .box-img{
-        position: relative;
-        top: -33%;
-        left: -2%;
-        width: 26%;
-        height: 30%;
-        z-index: 2;
-    }
+}
+
+.box-txt {
+    font-family: "BarlowCondensed-Regular";
+    font-size: 0.7rem;
+    position: relative;
+    top: -90%;
+}
+
+.box-circle {
+    width: 24%;
+    height: 30%;
+    border-radius: 100%;
+    position: relative;
+    top: -65%;
+    left: -5%;
+}
+
+.box-img {
+    position: relative;
+    top: -33%;
+    left: -2%;
+    width: 26%;
+    height: 30%;
+    z-index: 2;
+}
 
 /* WORK */
 
 #work {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 1200px;
     background-color: #EBEBEB;
 }
 
-.header-work{
+.head-work {
+    display: flex;
+}
+
+.header-work {
     font-family: "HeadingNowTrial";
     color: #141433;
     margin: 0;
@@ -368,12 +373,71 @@ body {
     font-size: 4rem;
 }
 
-.rombos{
+.rombos {
     width: 12%;
     position: relative;
-    left: 75%;
-    top: -20%;
+    left: 10%;
+    top: 1rem;
+
+}
+
+.body-work {
+    display: flex;
+}
+
+.notebook {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 8%;
+    animation: bounce 6s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0, 50px, 0);
+    }
+}
+
+.work-l{
+    width: 50%;
+}
+
+.cards-l {
+    display: grid;
+    grid-row-gap: 20px;
+    margin-top: -6%;
+    margin-left: 27%;
+}
+
+.card-l{
+    background-color: rebeccapurple;
+    width: 60%;
+    height: 230px;
+    border-radius: 10px;  
+}
+.work-r{
+    width: 50%;
+}
+
+.cards-r{
+    display: grid;
+    grid-row-gap: 20px;
+    margin-top: 10%;
+    margin-left: 1%;
     
+}
+
+.card-r{
+    width: 80%;
+    height: 15rem;
+    border-radius: 10px; 
 }
 
 /* TEAM */
