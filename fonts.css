@@ -1,88 +1,88 @@
 @font-face {
     font-family: "BarlowCondensed-black";
-    src: url("/assets/fonts/BarlowCondensed-Black.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-Black.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-BlackItalic";
-    src: url("/assets/fonts/BarlowCondensed-BlackItalic.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-BlackItalic.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-Bold";
-    src: url("/assets/fonts/BarlowCondensed-Bold.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-Bold.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-BoldItalic";
-    src: url("/assets/fonts/BarlowCondensed-BoldItalic.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-BoldItalic.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-ExtraBold";
-    src: url("/assets/fonts/BarlowCondensed-ExtraBold.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-ExtraBold.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-ExtraBoldItalic";
-    src: url("/assets/fonts/BarlowCondensed-ExtraBoldItalic.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-ExtraBoldItalic.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-ExtraLight";
-    src: url("/assets/fonts/BarlowCondensed-ExtraLight.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-ExtraLight.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-ExtraLightItalic";
-    src: url("/assets/fonts/BarlowCondensed-ExtraLightItalic.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-ExtraLightItalic.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-Italic";
-    src: url("/assets/fonts/BarlowCondensed-Italic.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-Italic.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-Light";
-    src: url("/assets/fonts/BarlowCondensed-Light.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-Light.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-LightItalic";
-    src: url("/assets/fonts/BarlowCondensed-LightItalic.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-LightItalic.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-Medium";
-    src: url("/assets/fonts/BarlowCondensed-Medium.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-Medium.ttf") format("ttf"),
 }
 @font-face {
     font-family: "BarlowCondensed-Regular";
-    src: url("/assets/fonts/BarlowCondensed-Regular.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-Regular.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-SemiBold";
-    src: url("/assets/fonts/BarlowCondensed-SemiBold.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-SemiBold.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-SemiBoldItalic";
-    src: url("/assets/fonts/BarlowCondensed-SemiBoldItalic.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-SemiBoldItalic.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-Thin";
-    src: url("/assets/fonts/BarlowCondensed-Thin.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-Thin.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "BarlowCondensed-ThinItalic";
-    src: url("/assets/fonts/BarlowCondensed-ThinItalic.ttf") format("ttf"),
+    src: url("./assets/fonts/BarlowCondensed-ThinItalic.ttf") format("ttf"),
 }
 
 @font-face {
     font-family: "HeadingNowTrial";
-    src: url("/assets/fonts/HeadingNowTrial-35MediumItalic.ttf")
+    src: url("./assets/fonts/HeadingNowTrial-35MediumItalic.ttf")
 }
