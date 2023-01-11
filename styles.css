@@ -3,14 +3,19 @@
 html,
 body,
 p {
+    width: 100%;
     margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body {
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
+    overflow-x: hidden;
+    
 }
 
 /* HEADER */
@@ -58,7 +63,7 @@ body {
 /* BODY */
 #_body {
     position: relative;
-    height: 3685px;
+    height: 3535px;
     width: 100%;
 
 }
@@ -184,10 +189,12 @@ body {
     width: 100%;
     height: 735px;
     background-color: #3355FF;
+  
 }
 
 #services-container {
     display: flex;
+   
 }
 
 #rayas {
@@ -208,6 +215,7 @@ body {
     position: relative;
     top: -5%;
     left: 18rem;
+    text-align: center;
     font-family: "HeadingNowTrial";
     font-size: 4rem;
     font-weight: 400;
@@ -369,6 +377,7 @@ body {
     color: #141433;
     margin: 0;
     margin-left: 30%;
+    text-align: center;
     padding-top: 5%;
     font-weight: 400;
     font-size: 4rem;
@@ -579,7 +588,7 @@ body {
   transform: rotate(90deg);
   position: relative;
   bottom: 7.7rem;
-  left: 31.7rem;
+  left: 72%;
 }
 
 /* TEAM */
@@ -587,8 +596,103 @@ body {
 #team {
     position: relative;
     width: 100%;
-    height: 600px;
-    background-color: rgb(26, 17, 14);
+    height: 1050px;
+    background-color: #FFFFFF;
+}
+
+.team-contain{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+.bc-img{
+    width: 180%;
+   margin-left:150% ;
+   margin-top: -15rem;
+   opacity: 0.3;  
+}
+
+
+.cuad-teams{  
+    width: 50%;
+    margin-top: 4rem;
+    margin-left: -28%;
+}
+
+.header-team {
+   
+    font-family: "HeadingNowTrial";
+    color: #141433;
+    position: relative;
+    left: 140%;
+    text-align: center;
+    top: 2.5rem;
+    margin: 0;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.equipo{
+    width: 100%;
+    display: grid;
+    margin-top: -60rem;
+    margin-left: 12%;
+    grid-template-columns: 15% 15% 15% 15% ;
+    grid-template-rows: 40% 40%;
+    row-gap: 5rem;
+    column-gap: 2rem;
+}
+
+.team-card{
+    border-radius: 20px;
+}
+.card-img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.card-text{
+    width: 100%;
+    height: 7rem;
+    background-color: #EBEBEB;
+    margin-top: -4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.name-team{
+    margin: 0;
+    padding-top: 8%;
+    text-align: center;
+    font-family: "BarlowCondensed-SemiBoldItalic";
+    font-size: 20px;
+    color: #141433;
+}
+.puesto{
+    padding-top: 2%;
+    text-align: center;
+    font-family: "BarlowCondensed-Regular";
+    font-size: 18px;
+    color: #141433;
+}
+
+
+
+.red-linkedin{
+    width: 12%;
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 34%;
+}
+
+.red-twitter{
+    width: 12%;
+    margin: 5px;
+    margin-top: 10px;
 }
 
 /* CONTACT */
