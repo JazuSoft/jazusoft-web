@@ -63,7 +63,7 @@ body {
 /* BODY */
 #_body {
     position: relative;
-    height: 4500px;
+    height: 4350px;
     width: 100%;
 
 }
@@ -191,10 +191,26 @@ body {
     background-color: #3355FF;
   
 }
+.head-services{
+    width: 100%;
+    margin: 0;
+}
+
+.header-services {
+    
+    text-align: center;
+    font-family: "HeadingNowTrial";
+    font-size: 4rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 5%;
+   
+}
 
 #services-container {
     display: flex;
-   
+    width: 100%;
 }
 
 #rayas {
@@ -204,57 +220,45 @@ body {
 
 #img-rayas {
     height: 250px;
-    width: 80px;
-    margin-top: 40px;
-    margin-left: -20px;
+    width: 350%;
+    margin-top: -300%;
+    margin-left: -85%;
 }
 
 
 
-.header-services {
-    position: relative;
-    top: -5%;
-    left: 18rem;
-    text-align: center;
-    font-family: "HeadingNowTrial";
-    font-size: 4rem;
-    font-weight: 400;
-    color: #FFFFFF;
-    position: relative;
-}
 
-.services-info2 {
-    position: relative;
+
+.services-info {
     display: grid;
     grid-auto-flow: column;
-    left: 15%;
     width: 150%;
-
+    margin-top: 4%;
+    margin-left: 10%;
 }
 
 .img-services {
     margin-top: 6%;
     margin-left: 12%;
-
+    z-index: 1;
 }
 
 #imgservice1 {
-    position: relative;
-    left: 15;
-    width: 18rem;
+    
+    width: 17rem;
     z-index: 1;
 }
 
 .contador-container {
     position: relative;
-    width: 19rem;
+    width: 18rem;
+   left: 3%;
     height: 7rem;
     bottom: 58px;
-    left: 3%;
     background-color: #00FF94C2;
     border-radius: 5%;
     border-bottom-right-radius: 80px;
-    z-index: 9;
+    z-index: 999;
 }
 
 .contador {
@@ -383,16 +387,17 @@ body {
     font-size: 4rem;
 }
 
-.rombos {
+.rombos-img {
     width: 12%;
     position: relative;
-    left: 15%;
-    top: 1rem;
-
+    left: 80%;
+    top: -7rem;
+    
 }
 
 .body-work {
     display: flex;
+    margin-top: -7rem;
 }
 
 .notebook {
@@ -459,7 +464,6 @@ body {
 }
 
 .card-l-2{
-    background-color: rebeccapurple;
     background-image: url('./assets/images/work/work03.jpg');
     background-size:cover;
     background-repeat: no-repeat;
@@ -596,54 +600,63 @@ body {
 #team {
     position: relative;
     width: 100%;
-    height: 1050px;
+    height: 900px;
     background-color: #FFFFFF;
 }
 
-.team-contain{
-    display: flex;
-    overflow: hidden;
+.head-team{
     width: 100%;
-}
-
-
-
-.bc-img{
-    width: 180%;
-   margin-left:150% ;
-   margin-top: -15rem;
-   opacity: 0.3;  
-}
-
-
-.cuad-teams{  
-    width: 50%;
-    margin-top: 4rem;
-    margin-left: -28%;
 }
 
 .header-team {
    
     font-family: "HeadingNowTrial";
     color: #141433;
-    position: relative;
-    left: 140%;
     text-align: center;
-    top: 2.5rem;
-    margin: 0;
     font-weight: 400;
     font-size: 4rem;
 }
 
-.equipo{
+.team-contain{
+    display: flex;
+    overflow: hidden;
     width: 100%;
+    margin-top: -13rem;
+}
+
+.background-img{
+    width: 10%;
+}
+
+.bc-img{
+    width: 350%;
+   opacity: 0.3; 
+   position: relative;
+   left: -70%;
+   top:-5% 
+}
+
+.cuadricula-teams{
+    width: 20%;
+}
+
+.cuad-teams{  
+    width: 70%;
+    margin-top: 4rem;
+    margin-left: -37%;
+}
+
+
+
+.equipo{
+    width: 60%;
     display: grid;
-    margin-top: -60rem;
-    margin-left: 12%;
-    grid-template-columns: 15% 15% 15% 15% ;
+    grid-template-columns: 21% 21% 21% 21% ;
     grid-template-rows: 40% 40%;
-    row-gap: 5rem;
+    row-gap: 1rem;
     column-gap: 2rem;
+    margin-top: 15%;
+   
 }
 
 .team-card{
@@ -829,6 +842,7 @@ textarea:focus, input:focus{
 .dos-flechas{
 margin-top: 4rem;
 margin-left: 70%;
+
 }
 
 /* FOOTER */
