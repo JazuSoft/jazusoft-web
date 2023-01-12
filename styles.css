@@ -63,7 +63,7 @@ body {
 /* BODY */
 #_body {
     position: relative;
-    height: 3535px;
+    height: 4500px;
     width: 100%;
 
 }
@@ -700,8 +700,135 @@ body {
 #contact {
     position: relative;
     width: 100%;
-    height: 600px;
-    background-color: rgb(255, 0, 200);
+    height: 900px;
+    background-color: #EBEBEB;
+}
+
+.head-contact{
+    width: 100%;
+}
+
+.header-contact{
+    text-align: center;
+    font-family: "HeadingNowTrial";
+    color: #141433;
+    font-weight: 400;
+    font-size: 4rem;
+    padding-top: 4%;
+}
+
+.flechas{
+    position: relative;
+    width: 18%;
+    left: 3%;
+    top: -9rem;
+}
+
+.contact-body{
+    width: 100%;
+    display: flex;
+}
+
+.contact-left{
+    width: 50%;
+
+}
+.contact-rigth{
+    width: 50%;
+
+}
+.mapa{
+    width: 100%;
+    height: 10rem;
+}
+
+.mapa iframe{
+    padding-left: 20%;
+}
+
+.tel-contact{
+    width: 100%;
+    display: flex;
+    padding-top: 11rem;
+    padding-left: 20%;
+}
+
+.email-contact{
+    width: 100%;
+    display: flex;
+    padding-top: 2%;
+    padding-left: 20%;
+}
+
+.adrs-contact{
+    width: 100%;
+    display: flex;
+    padding-top: 2%;
+    padding-left: 20%;
+}
+
+.img-contact{
+    width: 3%;
+}
+.text-contact{
+    padding-left: 8px;
+    font-family: "BarlowCondensed-Regular";
+}
+
+.head-right h2{
+    font-family: "HeadingNowTrial";
+    font-size: 80px;
+    font-weight: 400;
+    color: #141433;
+    line-height: 4.5rem;
+    margin-top: -0.8rem;
+    padding-left: 6rem;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.formulario{
+    padding-left: 6rem;
+}
+.input-form{
+    width: 40%;
+    background: none;
+    margin-top: 1.8rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px;
+    border-color: #3355FF;
+}
+
+.textarea-form{
+    width: 40%;
+    background: none;
+    margin-top: 1.8rem;
+    border-bottom: solid 2px;
+    border-width: 100%;
+    border-color: #3355FF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.btn-form{
+    font-family: "BarlowCondensed-SemiBoldItalic";
+    color: #FFFFFF;
+    background-color: #12C89E;
+    border: none;
+    border-radius: 30px;
+    width: 15%;
+    height: 2.5rem;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.dos-flechas{
+margin-top: 4rem;
+margin-left: 70%;
 }
 
 /* FOOTER */
