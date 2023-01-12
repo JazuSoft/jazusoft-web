@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <script
+      language="JavaScript"
+      type="text/javascript"
+      src="jquery-3.6.3.js"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JazuSoft</title>
+    <link rel="stylesheet" href="./fonts.css" type="text/css" />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-992864604"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-    <script language="JavaScript" type="text/javascript" src="jquery-3.6.3.js"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JAZUSOFT</title>
-    <link rel="stylesheet" href="fonts.css" type="text/css">
-    <link rel="stylesheet" href="styles.css" type="text/css">
-</head>
+      gtag("config", "AW-992864604");
+    </script>
+  </head>
 
-<body>
-
+  <body>
     <header id="header"></header>
 
-    <div id="_body"> </div>
+    <div id="_body"></div>
 
     <footer id="footer"></footer>
 
     <script src="index.js"></script>
     <script>
-        $("#header").load("header/header.html");
+      $("#header").load("header/header.html");
     </script>
     <script>
-        $("#_body").load("body/body.html");
+      $("#_body").load("body/body.html");
     </script>
     <script>
-        $("#footer").load("footer/footer.html");
+      $("#footer").load("footer/footer.html");
     </script>
-
-</body>
-
+  </body>
 </html>
