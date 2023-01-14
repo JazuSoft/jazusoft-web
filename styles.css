@@ -23,7 +23,7 @@ body {
 #header {
     position: fixed;
     width: 100%;
-    z-index: 999;
+    z-index: 999999999;
     
 }
 
@@ -86,80 +86,61 @@ body {
     width: 100%;
     height: 442px;
     display: flex;
+    margin-top: 5.4rem;
 }
 
 
 
 .inicioLeft {
-    width: 60%;
-    z-index: 888;
+    z-index: 2;
+    
 }
 
 .video-inicio {
-    width: 100%;
-    border-top-right-radius: 800px;
-   
+   width: 100%;
+   border-top-right-radius: 800px;
 }
-
-
-
 
 #inicioRight {
-
-    width: 40%;
-    height: 100%;
-    background-color: white;
-    display: grid;
-    margin-top: -3rem;
-    margin-left: -5%;
     z-index: 1;
-
 }
 
-#imgRight3 {
-    width: 100%;
-    height: 100%;
-
-}
 
 .cuadricula {
-    position: relative;
-    width: 16%;
-    left: 15%;
-    top: -6%;
+    
+    width: 14%;
+    margin-left: 8%;
+    margin-top: -50%;
     z-index: 2;
 }
 
 .triangleinicio {
-    position: relative;
-    top: 10%;
-    left: -12%;
-    width: 30%;
+  
+    width: 25%;
+    margin-top: 10%;
     z-index: 1;
 }
 
 .header-inicio {
-    position: relative;
-    top: -12rem;
+    
     font-family: "HeadingNowTrial";
     font-size: 6rem;
     font-weight: 550;
+    line-height: 4rem;
     color: #141433;
-    line-height: 0.7;
-    margin-left: 10%;
-    margin-top: 30%;
     z-index: 9;
+    margin-top: -18%;
+    margin-left: 3%;
 }
 
 .subheader-inicio {
-    position: relative;
-    top: -12rem;
+    
     font-family: "HeadingNowTrial";
     font-size: 2.2rem;
     font-weight: 300;
     color: #141433;
-    margin-left: 15%;
-    margin-top: -15%;
+    margin-left: 8%;
+    margin-top: 1%;
 }
 
 #imgRight2 {
@@ -168,11 +149,9 @@ body {
 }
 
 #img2-inicio {
-    position: relative;
-    bottom: 35%;
-    left: 43%;
     width: 8%;
-    margin-top: 0%;
+    margin-left: 36%;
+    margin-top: 5%;
 }
 
 
@@ -180,15 +159,14 @@ body {
 /* SERVICES */
 
 #services {
-    position: relative;
     width: 100%;
-    height: 735px;
     background-color: #3355FF;
+    z-index: 3333;
   
 }
 .head-services{
     width: 100%;
-    margin: 0;
+    
 }
 
 .header-services {
@@ -204,20 +182,13 @@ body {
 }
 
 #services-container {
-    display: flex;
     width: 100%;
 }
 
-#rayas {
-    height: 100%;
 
-}
 
-#img-rayas {
-    height: 250px;
-    width: 350%;
-    margin-top: -300%;
-    margin-left: -85%;
+.img-rayas {
+    margin-top: -8%;
 }
 
 
@@ -832,6 +803,7 @@ textarea:focus, input:focus{
     height: 2.5rem;
     font-size: 18px;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
 .dos-flechas{

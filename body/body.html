@@ -1,38 +1,48 @@
-<div id="body-container">
-    <div id="inicio">
-        <div class="inicioLeft">
-            <video class="video-inicio" poster="./assets/images/inicio/img1.png" autoplay preload="auto"
-                src="./assets/images/inicio/JAZUDARK.mp4"></video>
+<div id="body-container container">
+    <!-- INICIO -->
+    <div id="inicio" class="row">
+        <div class="inicioLeft col-sm-7" style="background-color: aqua;">
+            <!-- <div class="embed-responsive embed-responsive-16by9">
+                <video class="video-inicio embed-responsive-item" poster="./assets/images/inicio/img1.png" autoplay preload="auto"
+                src="./assets/images/inicio/JAZUDARK.mp4"></video> 
+            </div> -->
         </div>
-        <div id="inicioRight">
-            <div id="imgRight3">
-                <img class="cuadricula" src="./assets/SVG/web-elements-03-cuadricula.svg" alt="cuadricula" />
-
-                <img class="triangleinicio" src="./assets/images/inicio/greentriangle.svg" alt="greenTriangle" />
-
-                <h2 class="header-inicio">
-                    Boost <br />
-                    your business.
-                </h2>
-                <h4 class="subheader-inicio">We build creative websites & apps.</h4>
-
-                <img id="img2-inicio" src="./assets/images/inicio/img2.svg" alt="img2" />
+        <div id="inicioRight" class="col-sm-5">
+            <div id="imgRight3" class="col">
+                <div class="row-sm-2 ">
+                    <img class="triangleinicio" src="./assets/images/inicio/greentriangle.svg" alt="greenTriangle" />
+                </div>
+                <div class="row-sm-2">
+                    <img class="cuadricula" src="./assets/SVG/web-elements-03-cuadricula.svg" alt="cuadricula" />
+                </div>
+                <div class="row-sm-2">
+                    <h2 class="header-inicio">
+                        Boost <br />
+                        your business.
+                    </h2>
+                </div>
+                <div class="row-sm-2">
+                    <h4 class="subheader-inicio ">We build creative websites & apps.</h4>
+                </div>
+                <div class="row-sm-2">
+                    <img id="img2-inicio" src="./assets/images/inicio/img2.svg" alt="img2" />
+                </div>
             </div>
         </div>
 
     </div>
-    <div id="services">
-        <div class="head-services">
+    <!-- SERVICES -->
+    <div id="services" class="row" >
+        <div class="head-services row" >
             <h2 class="header-services">Ready to get our digital services?</h2>
         </div>
-        <div id="services-container">
-
-            <div id="rayas">
-                <img id="img-rayas" src="./assets/images/services/rayas.svg" alt="rayas" />
+        <div id="services-container row" style="background-color: blueviolet;">
+            <div id="rayas" class="col" >
+                <img class="img-rayas" src="./assets/images/services/rayas.svg" alt="rayas" />
             </div>
-            <div class="services-info">
-                <div class="img-services">
-                    <img id="imgservice1" src="./assets/images/services/annie-spratt-MChSQHxGZrQ-unsplash.png"
+            <div class="services-info" style="background-color: rgb(250, 250, 48);">
+                <!-- <div class="img-services"> -->
+                    <!-- <img id="imgservice1" src="./assets/images/services/annie-spratt-MChSQHxGZrQ-unsplash.png"
                         alt="img-services" />
 
                     <div class="contador-container">
@@ -48,9 +58,9 @@
                             <p class="smallcontador" style="left: 10px">dato C</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="cuadricula-services">
+                <!-- <div class="cuadricula-services">
                     <div class="box">
                         <img class="box-img" src="./assets/images/services/engrane.svg" alt="engrane" />
                         <div class="box-circle" style="background-color: #F3FFA1;"></div>
@@ -91,11 +101,11 @@
                             A variety of experts helping you to move towards your objective
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
-    <div id="work">
+    <div id="work" class="row">
         <div class="head-work">
             <h2 class="header-work">Some of our amazing works</h2>
         </div>
@@ -143,7 +153,7 @@
             </div>
         </div>
     </div>
-    <div id="team">
+    <div id="team" class="row">
         <div class="head-team">
             <h2 class="header-team"> Our Team</h2>
         </div>
@@ -296,7 +306,7 @@
         </div>
 
     </div>
-    <div id="contact">
+    <div id="contact" class="row">
         <div class="head-contact">
             <h2 class="header-contact">Need a successfull project?</h2>
             <img class="flechas" src="./assets/SVG/web-elements-05-mayorq.svg" alt="deco">
@@ -329,15 +339,15 @@
                     <h2>stay <br> connected_</h2>
                 </div>
                 <div class="formulario">
-                    <form>
-                        <input class="input-form" type="email" placeholder="mail">
+                    <form action="https://formbold.com/s/3qDDR" method="POST">
+                        <input class="input-form" type="email" placeholder="mail" required>
                         <br>
-                        <input class="input-form" type="text" placeholder="subject">
+                        <input class="input-form" type="text" placeholder="subject" required>
                         <br>
                         <textarea class="textarea-form" name="message" id="message" cols="30" rows="auto"
-                            placeholder="message"></textarea>
+                            placeholder="message" required></textarea>
                         <br>
-                        <input class="btn-form" type="submit" name="submit" id="submit" value="SEND">
+                        <button class="btn-form" type="submit">SEND</button>
                     </form>
                 </div>
                 <div class="img-flechas">
