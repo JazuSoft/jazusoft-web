@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <script
-      language="JavaScript"
-      type="text/javascript"
-      src="jquery-3.6.3.js"
-    ></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JazuSoft</title>
     <link rel="stylesheet" href="./fonts.css" type="text/css" />
     <link rel="stylesheet" href="./styles.css" type="text/css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -30,21 +30,716 @@
   </head>
 
   <body>
-    <header id="header"></header>
+    <header id="header">
+      <div class="logo-header-container">
+        <div class="logo-header"></div>
+      </div>
+      <div class="info-nav">
+        <a href="#services">SERVICES</a>
+        <a href="#work">WORK</a>
+        <a href="#team">TEAM</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+    </header>
+    <!-- INICIO -->
+    <section id="inicio">
+      <div class="circle"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7">
+            <!-- <div class="ratio ratio-16x9">
+              <iframe
+                src="./assets/images/inicio/JAZUDARK.mp4?controls=0"
+                title="YouTube video"
+                frameborder="0"
+                autoplay
+                preload="auto"
+              ></iframe>
+            </div> -->
+          </div>
+          <div class="col-sm-5">
+            <div class="col">
+              <div class="row-sm-2">
+                <img
+                  class="triangleinicio"
+                  src="./assets/images/inicio/greentriangle.svg"
+                  alt="greenTriangle"
+                />
+              </div>
+              <div class="row-sm-2">
+                <img
+                  class="cuadricula"
+                  src="./assets/SVG/web-elements-03-cuadricula.svg"
+                  alt="cuadricula"
+                />
+              </div>
+              <div class="row-sm-2">
+                <h2 class="header-inicio">
+                  Boost <br />
+                  your business.
+                </h2>
+              </div>
+              <div class="row-sm-2">
+                <h4 class="subheader-inicio">
+                  We build creative websites & apps.
+                </h4>
+              </div>
+              <div class="row-sm-2">
+                <img
+                  class="img2-inicio"
+                  src="./assets/images/inicio/img2.svg"
+                  alt="img2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div id="_body"></div>
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="rayas">
+        <img
+          class="img-rayas"
+          src="./assets/images/services/rayas.svg"
+          alt="rayas"
+        />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title">Ready to get our digital services?</h2>
+          </div>
+        </div>
+        <div class="row services-details">
+          <div class="col-md-6">
+            <div class="text-center">
+              <img
+                class="service-team-img"
+                src="./assets/images/services/annie-spratt-MChSQHxGZrQ-unsplash.png"
+                alt="img-services"
+              />
 
-    <footer id="footer"></footer>
+              <div class="contador-container">
+                <div class="row">
+                  <div class="col-md-4 colum">
+                    <div class="contador-number">
+                      +150 <br />
+                      dato A
+                    </div>
+                  </div>
+                  <div class="col-md-4 colum">
+                    <div class="contador-number">
+                      +20 <br />
+                      dato B
+                    </div>
+                  </div>
+                  <div class="col-md-4 colum">
+                    <div class="contador-number">
+                      +3 <br />
+                      dato C
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="cuadricula-services row">
+              <div class="box">
+                <img
+                  class="box-img"
+                  src="./assets/images/services/engrane.svg"
+                  alt="engrane"
+                />
+                <div class="box-circle" style="background-color: #f3ffa1"></div>
+                <h6 class="box-header">Web, App & E-commerce Development</h6>
+                <p class="box-txt">
+                  Beautiful and Influential websites $ apps that are mobile
+                  friendly quick to load and help drive sales giving you a solid
+                  presence online.
+                </p>
+              </div>
+              <div class="box">
+                <img
+                  class="box-img"
+                  src="./assets/images/services/infraestructure.svg"
+                  alt="engrane"
+                />
+                <div class="box-circle" style="background-color: #9fffe5"></div>
+                <h6 class="box-header">Infrastructure</h6>
+                <p class="box-txt">
+                  Architecture Design and Implementation, Security, Cost /
+                  Benefit Analysis.
+                </p>
+              </div>
+              <div class="box">
+                <img
+                  class="box-img"
+                  src="./assets/images/services/staffaugm.svg"
+                  alt="engrane"
+                />
+                <div class="box-circle" style="background-color: #e3b2ff"></div>
+                <h6 class="box-header">Staff Augmentation</h6>
+                <p class="box-txt">
+                  Our Staff Augmentation Service provides the speed and
+                  professionalism you need in a dynamic and flexible manner,
+                  available at any phase in your project
+                </p>
+              </div>
+              <div class="box">
+                <img
+                  class="box-img"
+                  src="./assets/images/services/consulting.svg"
+                  alt="engrane"
+                />
+                <div class="box-circle" style="background-color: #ffc2c2"></div>
+                <h6 class="box-header">Consulting</h6>
+                <p class="box-txt">
+                  A variety of experts helping you to move towards your
+                  objective
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="rombos">
+        <img
+          class="rombos-img"
+          src="./assets/SVG/web-elements-02-rombos.svg"
+          alt="rombos"
+        />
+      </div>
+      <div class="rayas-img">
+        <img
+          class="rayas-horizontal"
+          src="./assets/images/services/rayas.svg"
+          alt="rayas-horizontal"
+        />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title">Some of our amazing works</h2>
+          </div>
+        </div>
+
+        <div class="work-details row">
+          <div class="col-md-5">
+            <div class="notebook-container">
+              <img
+                class="notebook"
+                src="./assets/SVG/notebook.svg"
+                alt="notebook"
+              />
+            </div>
+            <div
+              class="card card-left"
+              style="background-image: url('./assets/images/work/work01.jpg')"
+            >
+              <img
+                src="./assets/SVG/logo/logo-white.svg"
+                class="jazu-logo"
+                alt="logo"
+              />
+              <h4>BELU HELP ME!</h4>
+              <div class="details">
+                <div class="overlay"></div>
+                <div class="row">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-8 text-end">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Necessitatibus ratione soluta officiis obcaecati
+                      dignissimos expedita enim voluptatem vel. Nobis quam
+                      asperiores nemo magnam sunt, animi sapiente fugiat
+                      quibusdam pariatur ea?
+                    </p>
+                    <button>VIEW PROJECT</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card card-left"
+              style="background-image: url('./assets/images/work/work02.jpg')"
+            >
+              <img
+                src="./assets/SVG/logo/logo-white.svg"
+                class="jazu-logo"
+                alt="logo"
+              />
+              <h4>GOLDEN KEY</h4>
+              <div class="details">
+                <div class="overlay"></div>
+                <div class="row">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-8 text-end">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Necessitatibus ratione soluta officiis obcaecati
+                      dignissimos expedita enim voluptatem vel. Nobis quam
+                      asperiores nemo magnam sunt, animi sapiente fugiat
+                      quibusdam pariatur ea?
+                    </p>
+                    <button>VIEW PROJECT</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div
+              class="card card-right"
+              style="background-image: url('./assets/images/work/work03.jpg')"
+            >
+              <img
+                src="./assets/SVG/logo/logo-white.svg"
+                class="jazu-logo"
+                alt="logo"
+              />
+              <h4>STONERIDGE</h4>
+              <div class="details">
+                <div class="overlay"></div>
+                <div class="row">
+                  <div class="col-md-8">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Necessitatibus ratione soluta officiis obcaecati
+                      dignissimos expedita enim voluptatem vel. Nobis quam
+                      asperiores nemo magnam sunt, animi sapiente fugiat
+                      quibusdam pariatur ea?
+                    </p>
+                    <button>VIEW PROJECT</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card card-right"
+              style="background-image: url('./assets/images/work/work04.jpg')"
+            >
+              <img
+                src="./assets/SVG/logo/logo-white.svg"
+                class="jazu-logo"
+                alt="logo"
+              />
+              <h4>RAVIT</h4>
+              <div class="details">
+                <div class="overlay"></div>
+                <div class="row">
+                  <div class="col-md-8">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Necessitatibus ratione soluta officiis obcaecati
+                      dignissimos expedita enim voluptatem vel. Nobis quam
+                      asperiores nemo magnam sunt, animi sapiente fugiat
+                      quibusdam pariatur ea?
+                    </p>
+                    <button>VIEW PROJECT</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn-projects">
+              <button>VIEW ALL PROJECTS</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="_body">
+      <div id="body-container container">
+        <div id="team" class="row">
+          <div class="head-team">
+            <h2 class="header-team">Our Team</h2>
+          </div>
+          <div class="team-contain">
+            <div class="cuadricula-teams">
+              <img
+                class="cuad-teams"
+                src="./assets/SVG/web-elements-03-cuadricula.svg"
+                alt="cuadricula-teams"
+              />
+            </div>
+            <div class="equipo">
+              <div class="team-card">
+                <img
+                  class="card-img"
+                  src="./assets/images/team/team01.png"
+                  alt="team-card"
+                />
+                <div class="card-text">
+                  <h6 class="name-team">David McHenry</h6>
+                  <p class="puesto">UI/UX Designer</p>
+                  <div class="redes">
+                    <a href="#">
+                      <img
+                        class="red-linkedin"
+                        src="./assets/SVG/social-icons/social icons-linkedin.svg"
+                        alt="linkedin"
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        class="red-twitter"
+                        src="./assets/SVG/social-icons/social icons-twitter.svg"
+                        alt="twitter"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <img
+                  class="card-img"
+                  src="./assets/images/team/team02.png"
+                  alt="team-card"
+                />
+                <div class="card-text">
+                  <h6 class="name-team">Frank Kirk</h6>
+                  <p class="puesto">Frontend Developer</p>
+                  <div class="redes">
+                    <a href="#">
+                      <img
+                        class="red-linkedin"
+                        src="./assets/SVG/social-icons/social icons-linkedin.svg"
+                        alt="linkedin"
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        class="red-twitter"
+                        src="./assets/SVG/social-icons/social icons-twitter.svg"
+                        alt="twitter"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <img
+                  class="card-img"
+                  src="./assets/images/team/team03.png"
+                  alt="team-card"
+                />
+                <div class="card-text">
+                  <h6 class="name-team">Rafael Morales</h6>
+                  <p class="puesto">Backend Developer</p>
+                  <div class="redes">
+                    <a href="#">
+                      <img
+                        class="red-linkedin"
+                        src="./assets/SVG/social-icons/social icons-linkedin.svg"
+                        alt="linkedin"
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        class="red-twitter"
+                        src="./assets/SVG/social-icons/social icons-twitter.svg"
+                        alt="twitter"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <img
+                  class="card-img"
+                  src="./assets/images/team/team04.png"
+                  alt="team-card"
+                />
+                <div class="card-text">
+                  <h6 class="name-team">Mark Ellison</h6>
+                  <p class="puesto">Full Stack Developer</p>
+                  <div class="redes">
+                    <a href="#">
+                      <img
+                        class="red-linkedin"
+                        src="./assets/SVG/social-icons/social icons-linkedin.svg"
+                        alt="linkedin"
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        class="red-twitter"
+                        src="./assets/SVG/social-icons/social icons-twitter.svg"
+                        alt="twitter"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <img
+                  class="card-img"
+                  src="./assets/images/team/team05.png"
+                  alt="team-card"
+                />
+                <div class="card-text">
+                  <h6 class="name-team">Minnie Walter</h6>
+                  <p class="puesto">Frontend Developer</p>
+                  <div class="redes">
+                    <a href="#">
+                      <img
+                        class="red-linkedin"
+                        src="./assets/SVG/social-icons/social icons-linkedin.svg"
+                        alt="linkedin"
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        class="red-twitter"
+                        src="./assets/SVG/social-icons/social icons-twitter.svg"
+                        alt="twitter"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <img
+                  class="card-img"
+                  src="./assets/images/team/team06.png"
+                  alt="team-card"
+                />
+                <div class="card-text">
+                  <h6 class="name-team">Shirley Smith</h6>
+                  <p class="puesto">UI/UX Designer</p>
+                  <div class="redes">
+                    <a href="#">
+                      <img
+                        class="red-linkedin"
+                        src="./assets/SVG/social-icons/social icons-linkedin.svg"
+                        alt="linkedin"
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        class="red-twitter"
+                        src="./assets/SVG/social-icons/social icons-twitter.svg"
+                        alt="twitter"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <img
+                  class="card-img"
+                  src="./assets/images/team/team07.png"
+                  alt="team-card"
+                />
+                <div class="card-text">
+                  <h6 class="name-team">John Santiago</h6>
+                  <p class="puesto">Full Stack Developer</p>
+                  <div class="redes">
+                    <a href="#">
+                      <img
+                        class="red-linkedin"
+                        src="./assets/SVG/social-icons/social icons-linkedin.svg"
+                        alt="linkedin"
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        class="red-twitter"
+                        src="./assets/SVG/social-icons/social icons-twitter.svg"
+                        alt="twitter"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <img
+                  class="card-img"
+                  src="./assets/images/team/team08.png"
+                  alt="team-card"
+                />
+                <div class="card-text">
+                  <h6 class="name-team">Colin Melton</h6>
+                  <p class="puesto">Backend Developer</p>
+                  <div class="redes">
+                    <a href="#">
+                      <img
+                        class="red-linkedin"
+                        src="./assets/SVG/social-icons/social icons-linkedin.svg"
+                        alt="linkedin"
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        class="red-twitter"
+                        src="./assets/SVG/social-icons/social icons-twitter.svg"
+                        alt="twitter"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="background-img">
+              <img class="bc-img" src="./assets/SVG/rayo.svg" alt="rayo" />
+            </div>
+          </div>
+        </div>
+        <div id="contact" class="row">
+          <div class="head-contact">
+            <h2 class="header-contact">Need a successfull project?</h2>
+            <img
+              class="flechas"
+              src="./assets/SVG/web-elements-05-mayorq.svg"
+              alt="deco"
+            />
+          </div>
+          <div class="contact-body">
+            <div class="contact-left">
+              <div class="mapa">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.792946098316!2d-64.19037088533578!3d-31.419830303561483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a32dcf5d747f%3A0x40373220b29140ac!2sPatio%20Olmos%20Shopping!5e0!3m2!1ses!2sar!4v1673463367825!5m2!1ses!2sar"
+                  width="80%"
+                  height="300px"
+                  style="border: 0"
+                  allowfullscreen="false"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div class="tel-contact">
+                <img
+                  class="img-contact"
+                  src="./assets/SVG/phone-solid.svg"
+                  alt="phone"
+                />
+                <p class="text-contact">+54 11 1234-5678 / +54 11 1357-2468</p>
+              </div>
+              <div class="email-contact">
+                <img
+                  class="img-contact"
+                  src="./assets/SVG/envelope-solid.svg"
+                  alt="email"
+                />
+                <p class="text-contact">hello@jazusoft.com</p>
+              </div>
+              <div class="adrs-contact">
+                <img
+                  class="img-contact"
+                  src="./assets/SVG/location-dot-solid.svg"
+                  alt="location"
+                />
+                <p class="text-contact">Adress St. 456 - Location</p>
+              </div>
+            </div>
+            <div class="contact-rigth">
+              <div class="head-right">
+                <h2>
+                  stay <br />
+                  connected_
+                </h2>
+              </div>
+              <div class="formulario">
+                <form action="https://formbold.com/s/3qDDR" method="POST">
+                  <input
+                    class="input-form"
+                    type="email"
+                    placeholder="mail"
+                    required
+                  />
+                  <br />
+                  <input
+                    class="input-form"
+                    type="text"
+                    placeholder="subject"
+                    required
+                  />
+                  <br />
+                  <textarea
+                    class="textarea-form"
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="auto"
+                    placeholder="message"
+                    required
+                  ></textarea>
+                  <br />
+                  <button class="btn-form" type="submit">SEND</button>
+                </form>
+              </div>
+              <div class="img-flechas">
+                <img
+                  class="dos-flechas"
+                  src="/assets/SVG/2-flechas.svg"
+                  alt="2-flechas"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div id="footer-container">
+        <div id="footer-data">
+          <!-- Bloque izquierdo  -->
+          <div id="left-item-footer">
+            <!-- Logo contenedor -->
+            <div id="logo-header-container">
+              <div id="logo-header"></div>
+            </div>
+            <!-- Direccion y data -->
+            <div id="data-container">
+              <p>Adress St. 456 - Location</p>
+              <p>hello@jazusoft.com</p>
+              <p>+54 11 1234-5678</p>
+              <p>+54 11 1357-2468</p>
+            </div>
+            <div id="social-media-container">
+              <!-- Github -->
+              <div class="social-media-item">
+                <div class="social-media" id="github"></div>
+              </div>
+              <!-- Instagram -->
+              <div class="social-media-item">
+                <div class="social-media" id="instagram"></div>
+              </div>
+              <!-- Linkedin -->
+              <div class="social-media-item">
+                <div class="social-media" id="linkedin"></div>
+              </div>
+              <!-- Twitter -->
+              <div class="social-media-item">
+                <div class="social-media" id="twitter"></div>
+              </div>
+              <!-- Facebook -->
+              <div class="social-media-item">
+                <div class="social-media" id="facebook"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Bloque derecho -->
+          <div id="right-item-footer"></div>
+        </div>
+        <div id="bottom-bar">
+          <p id="bottom-p">All rights reserved. Jazusoft 2022</p>
+        </div>
+      </div>
+    </footer>
 
     <script src="index.js"></script>
-    <script>
-      $("#header").load("header/header.html");
-    </script>
-    <script>
-      $("#_body").load("body/body.html");
-    </script>
-    <script>
-      $("#footer").load("footer/footer.html");
-    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
