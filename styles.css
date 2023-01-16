@@ -413,65 +413,41 @@ h2 {
 /* TEAM */
 
 #team {
-    position: relative;
-    width: 100%;
-    height: 900px;
     background-color: #FFFFFF;
-}
-
-.head-team{
-    width: 100%;
-}
-
-.header-team {
-   
-    font-family: "HeadingNowTrial";
-    color: #141433;
-    text-align: center;
-    font-weight: 400;
-    font-size: 4rem;
-}
-
-.team-contain{
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-    margin-top: -13rem;
+    overflow-y: hidden;
 }
 
 .background-img{
-    width: 10%;
+    position: relative;
 }
 
 .bc-img{
-    width: 350%;
-   opacity: 0.3; 
-   position: relative;
-   left: -70%;
-   top:-5% 
+    position: absolute;
+    top: -26rem;
+    right: -6rem;
 }
 
 .cuadricula-teams{
-    width: 20%;
+    position: relative;
+    width: 8%; 
+    
 }
 
-.cuad-teams{  
-    width: 70%;
-    margin-top: 4rem;
-    margin-left: -37%;
+.cuad-teams{ 
+    position: absolute; 
+    top: 3rem;
+    left: -110%;
 }
 
 
 
 .equipo{
-    width: 60%;
     display: grid;
-    grid-template-columns: 21% 21% 21% 21% ;
-    grid-template-rows: 40% 40%;
-    row-gap: 1rem;
-    column-gap: 2rem;
-    margin-top: 15%;
-   
+    grid-template-columns: 19% 19% 19% 19% ;
+    grid-template-rows: 38% 38%;
+    row-gap: 5rem;
+    column-gap: 3rem;
+    margin-top: 6%;
 }
 
 .team-card{
@@ -485,7 +461,8 @@ h2 {
 }
 .card-text{
     width: 100%;
-    height: 7rem;
+    height: auto;
+    min-height: 7rem;
     background-color: #EBEBEB;
     margin-top: -4px;
     border-bottom-left-radius: 10px;
@@ -496,14 +473,18 @@ h2 {
     margin: 0;
     padding-top: 8%;
     text-align: center;
-    font-family: "BarlowCondensed-SemiBoldItalic";
+    font-family: "BarlowCondensed";
+    font-weight: 600;
+    font-style: italic;
     font-size: 20px;
     color: #141433;
 }
 .puesto{
     padding-top: 2%;
     text-align: center;
-    font-family: "BarlowCondensed-Regular";
+    font-family: "BarlowCondensed";
+    font-weight: 100;
+    font-style: normal;
     font-size: 18px;
     color: #141433;
 }
@@ -513,22 +494,21 @@ h2 {
 .red-linkedin{
     width: 12%;
     margin: 5px;
-    margin-top: 10px;
     margin-left: 34%;
+    margin-top: -10px;
 }
 
 .red-twitter{
     width: 12%;
     margin: 5px;
-    margin-top: 10px;
+    margin-top: -10px;
+
 }
 
 /* CONTACT */
 
 #contact {
     position: relative;
-    width: 100%;
-    height: 900px;
     background-color: #EBEBEB;
 }
 
@@ -546,10 +526,7 @@ h2 {
 }
 
 .flechas{
-    position: relative;
-    width: 18%;
-    left: 3%;
-    top: -9rem;
+    position: relative;   
 }
 
 .contact-body{
