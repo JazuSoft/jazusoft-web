@@ -434,6 +434,10 @@ h2 {
     
 }
 
+#team .team-details {
+    margin-top: 70px;
+}
+
 .cuad-teams{ 
     position: absolute; 
     top: 3rem;
@@ -536,30 +540,28 @@ h2 {
     left: 2rem;
 
 }
+#contact .contact-details {
+    margin-top: 70px;
+}
 
 .contact-body{
     width: 100%;
     display: flex;
 }
 
-.contact-left{
-    width: 50%;
 
-}
-.contact-rigth{
-    width: 50%;
-
-}
 .mapa{
    
 }
 
-
+.datos-contact{
+    margin-top: 2rem;
+}
 
 .item-contact{
     width: 100%;
     display: flex;
-    padding-top: 2%;
+    margin-top: -1rem;
     padding-left: 20%;
 }
 
@@ -588,9 +590,10 @@ textarea:focus, input:focus{
 
 .formulario{
     padding-left: 6rem;
+    
 }
 .input-form{
-    width: 40%;
+   width: 100%;
     background: none;
     margin-top: 1.8rem;
     border-top: none;
@@ -598,10 +601,13 @@ textarea:focus, input:focus{
     border-right: none;
     border-bottom: solid 2px;
     border-color: #3355FF;
+    font-family: "BarlowCondensed";
+    font-weight: 100;
+    font-style: normal;
 }
 
 .textarea-form{
-    width: 40%;
+    width: 100%;
     background: none;
     margin-top: 1.8rem;
     border-bottom: solid 2px;
@@ -610,6 +616,9 @@ textarea:focus, input:focus{
     border-top: none;
     border-left: none;
     border-right: none;
+    font-family: "BarlowCondensed";
+    font-weight: 100;
+    font-style: normal;
 }
 
 .btn-form{
