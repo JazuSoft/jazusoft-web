@@ -445,7 +445,7 @@ h2 {
     display: grid;
     grid-template-columns: 19% 19% 19% 19% ;
     grid-template-rows: 38% 38%;
-    row-gap: 5rem;
+    row-gap: 6rem;
     column-gap: 3rem;
     margin-top: 6%;
 }
@@ -525,8 +525,15 @@ h2 {
     padding-top: 4%;
 }
 
+.flechas-contact{
+    position: relative; 
+    width: 20%;
+}
 .flechas{
-    position: relative;   
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+
 }
 
 .contact-body{
