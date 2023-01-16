@@ -188,7 +188,7 @@ body {
 
 
 .img-rayas {
-    margin-top: -8%;
+    margin-top: -45%;
 }
 
 
@@ -199,32 +199,30 @@ body {
     display: grid;
     grid-auto-flow: column;
     width: 150%;
-    margin-top: 4%;
-    margin-left: 10%;
+    
 }
 
 .img-services {
-    margin-top: 6%;
-    margin-left: 12%;
     z-index: 1;
 }
 
 #imgservice1 {
-    
+    position: relative;
     width: 17rem;
     z-index: 1;
+    margin-top: 20%;
 }
 
 .contador-container {
     position: relative;
     width: 18rem;
-   left: 3%;
     height: 7rem;
-    bottom: 58px;
     background-color: #00FF94C2;
     border-radius: 5%;
     border-bottom-right-radius: 80px;
     z-index: 999;
+    margin-top: -10%;
+    margin-bottom: 100px;
 }
 
 .contador {
@@ -232,14 +230,13 @@ body {
     display: grid;
     grid-auto-flow: column;
 
-
 }
 
 
 .txtcontador {
     position: relative;
     left: 20px;
-    top: 35%;
+    top: 10%;
     color: #FFFFFF;
     font-weight: 200;
     font-family: "BarlowCondensed-Regular";
@@ -254,6 +251,7 @@ body {
 
     display: grid;
     grid-auto-flow: column;
+    margin-top: -20%;
 
 }
 
@@ -279,8 +277,8 @@ body {
     grid-column-gap: 20px;
     grid-row-gap: 50px;
     position: relative;
-    bottom: -2%;
-    left: -10rem;
+    margin-top: 20%;
+    margin-left: -8rem;
 
 }
 
@@ -312,21 +310,21 @@ body {
 }
 
 .box-circle {
-    width: 24%;
+    width: 23%;
     height: 30%;
     border-radius: 100%;
     position: relative;
-    top: -65%;
-    left: -5%;
+    bottom: 85%;
+    
 }
 
 .box-img {
-    position: relative;
-    top: -33%;
-    left: -2%;
     width: 26%;
     height: 30%;
     z-index: 2;
+    position: relative;
+    bottom: 52%;
+    left: 4%;
 }
 
 /* WORK */
