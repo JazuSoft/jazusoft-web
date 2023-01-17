@@ -679,11 +679,16 @@ font-family: "BarlowCondensed";
 font-weight: 400;
 font-style: normal;
 padding: 0.5rem;
+text-align: center;
 }
 
 .header-footer-form p{
     font-size: 2rem;
     padding-top: 3rem;
+}
+
+.newsletter-form{
+    margin-bottom: 3rem;
 }
 
 .bottom-br{
@@ -696,6 +701,7 @@ padding: 0.5rem;
     font-weight: 100;
     font-style: normal;
     text-align: center;
+    padding-top: 1rem;
 }
 
 /* OLD FOOTER */
