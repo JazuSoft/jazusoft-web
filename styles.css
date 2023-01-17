@@ -730,3 +730,15 @@ text-align: center;
         margin-left: -3rem;
     }
 }
+
+#sib-container input:-ms-input-placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }
+
+  #sib-container input::placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }
