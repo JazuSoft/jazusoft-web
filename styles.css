@@ -623,7 +623,9 @@ textarea:focus, input:focus{
 }
 
 .btn-form{
-    font-family: "BarlowCondensed-SemiBoldItalic";
+    font-family: "BarlowCondensed";
+    font-weight: 600;
+    font-style: italic;
     color: #FFFFFF;
     background-color: #12C89E;
     border: none;
@@ -648,6 +650,55 @@ textarea:focus, input:focus{
 }
 
 /* FOOTER */
+
+.data-footer p{
+    font-family: "BarlowCondensed";
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 0.2rem;
+    color: black;
+}
+
+.social{
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.social img{
+    width: 4rem;
+}
+
+.footer-nav{
+    padding-top: 3rem;
+}
+
+.footer-nav a{
+font-size: 1.6rem;
+font-family: "BarlowCondensed";
+font-weight: 400;
+font-style: normal;
+padding: 0.5rem;
+}
+
+.header-footer-form p{
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.bottom-br{
+    background-color: #3355FF;
+}
+
+.bottom-br p{
+    color: #FFFFFF;
+    font-family: "BarlowCondensed";
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+}
+
+/* OLD FOOTER */
 
 #footer {
     width: 100%;
