@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+  <g id="Grupo_217" data-name="Grupo 217" transform="translate(-1191 -2791)">
+    <g id="Grupo_218" data-name="Grupo 218" transform="translate(1195.818 2795.818)">
+      <rect id="Rectángulo_126" data-name="Rectángulo 126" width="14.438" height="1.633" transform="translate(11.364 1.155) rotate(135)" fill="#141433"/>
+      <rect id="Rectángulo_127" data-name="Rectángulo 127" width="14.438" height="1.633" transform="translate(10.209 11.364) rotate(-135)" fill="#141433"/>
+    </g>
+    <g id="Elipse_29" data-name="Elipse 29" transform="translate(1191 2791)" fill="none" stroke="#131332" stroke-width="1">
+      <circle cx="10.5" cy="10.5" r="10.5" stroke="none"/>
+      <circle cx="10.5" cy="10.5" r="10" fill="none"/>
+    </g>
+  </g>
+</svg>
