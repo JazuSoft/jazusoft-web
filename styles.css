@@ -10,7 +10,7 @@ body {
 }
 
 h2 {
-    font-size: 4.5rem!important;
+    font-size: 4.5rem !important;
 }
 
 section {
@@ -21,9 +21,9 @@ section {
 .section-title {
     text-align: center;
     font-weight: 400;
-    margin-top: 2rem!important;
+    margin-top: 2rem !important;
     color: inherit;
-    margin-bottom: 2rem!important;
+    margin-bottom: 2rem !important;
 }
 
 @keyframes bounce {
@@ -43,12 +43,12 @@ section {
     position: fixed;
     padding: 0 32px;
     width: 100%;
-    z-index: 999999999;   
+    z-index: 999999999;
     height: 86px;
     background-color: #F5F5F5;
     display: flex;
-    align-items:center;
-    justify-content:space-between;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #header a {
@@ -91,7 +91,7 @@ section {
 }
 
 #inicio .header-inicio {
-    
+
     font-family: "HeadingNowTrial";
     font-size: 6rem;
     font-weight: 550;
@@ -103,7 +103,7 @@ section {
 }
 
 #inicio .subheader-inicio {
-    
+
     font-family: "HeadingNowTrial";
     font-size: 2.2rem;
     font-weight: 300;
@@ -114,7 +114,7 @@ section {
 
 
 #inicio .cuadricula {
-    
+
     width: 14%;
     margin-left: 8%;
     margin-top: -50%;
@@ -122,7 +122,7 @@ section {
 }
 
 #inicio .triangleinicio {
-  
+
     width: 25%;
     margin-top: 10%;
     z-index: 1;
@@ -138,13 +138,13 @@ section {
 
 #services {
     background-color: #3355FF;
-    color: #FFFFFF!important;
+    color: #FFFFFF !important;
     position: relative;
     padding-bottom: 60px;
-  
+
 }
 
-#services .section-title{
+#services .section-title {
     color: #fff;
 }
 
@@ -166,7 +166,7 @@ section {
 #services .contador-container {
     position: relative;
     width: 100%;
-    margin-top: -45px!important;
+    margin-top: -45px !important;
     margin: auto;
     padding-right: 30px;
     max-width: 350px;
@@ -271,7 +271,7 @@ section {
     position: relative;
     left: 80%;
     top: 70px;
-    
+
 }
 
 #work .work-details {
@@ -294,12 +294,12 @@ section {
 
 #work .card {
     position: relative;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
     margin-bottom: 35px;
-    border-radius: 10px; 
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -340,7 +340,7 @@ section {
     transition-duration: 500ms;
 }
 
-#work .btn-projects button{
+#work .btn-projects button {
     font-family: "BarlowCondensed";
     background-color: #3355FF;
     border-radius: 20px;
@@ -354,11 +354,11 @@ section {
 }
 
 #work .card .details {
-    color:#fff;
+    color: #fff;
     overflow: hidden;
     height: 0px;
     position: absolute;
-    bottom:0;
+    bottom: 0;
     left: 0;
     padding: 0;
     width: 100%;
@@ -382,11 +382,11 @@ section {
 
 #work .card .details .overlay {
     background-color: #000443;
-    border-radius: 10px; 
+    border-radius: 10px;
     opacity: 0.7;
     position: absolute;
     height: 100%;
-    bottom:0;
+    bottom: 0;
     left: 0;
     width: 100%;
 
@@ -414,7 +414,7 @@ section {
     right: 180px;
 }
 
-#work .rayas-horizontal{
+#work .rayas-horizontal {
     height: 320px;
     transform: rotate(90deg);
     position: relative;
@@ -429,43 +429,47 @@ section {
     overflow-y: hidden;
 }
 
-.background-img{
+.background-img {
     position: relative;
 }
 
-.bc-img{
+.bc-img {
     position: absolute;
     top: -26rem;
     right: -6rem;
 }
 
-.cuadricula-teams{
+.cuadricula-teams {
     position: relative;
-    width: 8%; 
-    
+    width: 8%;
+    z-index: 91;
+
 }
 
 #team .team-details {
     margin-top: 70px;
 }
 
-.cuad-teams{ 
-    position: absolute; 
+.cuad-teams {
+    position: absolute;
     top: 3rem;
     left: -110%;
 }
 
-#team .team-card{
+#team .team-card {
     border-radius: 20px;
     margin-bottom: 40px;
+    z-index: 9;
 }
-.card-img{
+
+.card-img {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    
+
 }
-.card-text{
+
+.card-text {
     width: 100%;
     height: auto;
     min-height: 7rem;
@@ -475,7 +479,7 @@ section {
     border-bottom-right-radius: 10px;
 }
 
-.name-team{
+.name-team {
     margin: 0;
     padding-top: 8%;
     text-align: center;
@@ -485,7 +489,8 @@ section {
     font-size: 20px;
     color: #141433;
 }
-.puesto{
+
+.puesto {
     padding-top: 2%;
     text-align: center;
     font-family: "BarlowCondensed";
@@ -495,20 +500,8 @@ section {
     color: #141433;
 }
 
-
-
-.red-linkedin{
-    width: 12%;
-    margin: 5px;
-    margin-left: 34%;
-    margin-top: -10px;
-}
-
-.red-twitter{
-    width: 12%;
-    margin: 5px;
-    margin-top: -10px;
-
+.card-link {
+    text-decoration: none;
 }
 
 /* CONTACT */
@@ -519,41 +512,44 @@ section {
     padding-bottom: 60px;
 }
 
-.flechas-contact{
-    position: relative; 
+.flechas-contact {
+    position: relative;
     width: 20rem;
 }
-.flechas{
+
+.flechas {
     position: absolute;
     top: 3rem;
     left: 2rem;
 
 }
+
 #contact .contact-details {
     margin-top: 70px;
 }
 
-.datos-contact{
+.datos-contact {
     margin-top: 2rem;
 }
 
-.item-contact{
+.item-contact {
     width: 100%;
     display: flex;
     margin-top: -1rem;
 }
 
 
-.img-contact{
+.img-contact {
     width: 3%;
 }
-.text-contact{
+
+.text-contact {
     padding-left: 8px;
     font-family: "BarlowCondensed-Regular";
     padding-top: 1rem;
 }
 
-.head-right h2{
+.head-right h2 {
     font-family: "HeadingNowTrial";
     font-size: 80px;
     font-weight: 400;
@@ -562,16 +558,19 @@ section {
     margin-top: -0.8rem;
     padding-left: 6rem;
 }
-textarea:focus, input:focus{
+
+textarea:focus,
+input:focus {
     outline: none;
 }
 
-.formulario{
+.formulario {
     padding-left: 6rem;
     padding-bottom: 10rem;
 }
-.input-form{
-   width: 100%;
+
+.input-form {
+    width: 100%;
     background: none;
     margin-top: 1.8rem;
     border-top: none;
@@ -584,7 +583,7 @@ textarea:focus, input:focus{
     font-style: normal;
 }
 
-.textarea-form{
+.textarea-form {
     width: 100%;
     background: none;
     margin-top: 1.8rem;
@@ -599,7 +598,7 @@ textarea:focus, input:focus{
     font-style: normal;
 }
 
-.btn-form{
+.btn-form {
     font-family: "BarlowCondensed";
     font-weight: 600;
     font-style: italic;
@@ -614,16 +613,16 @@ textarea:focus, input:focus{
     cursor: pointer;
 }
 
-.img-flechas{
+.img-flechas {
 
     position: absolute;
-    bottom: 3rem;   
+    bottom: 3rem;
 
 }
 
 /* FOOTER */
 
-.data-footer p{
+.data-footer p {
     font-family: "BarlowCondensed";
     font-weight: 400;
     font-style: normal;
@@ -632,42 +631,42 @@ textarea:focus, input:focus{
     color: black;
 }
 
-.social{
+.social {
     padding-top: 2rem;
     margin-bottom: 3rem;
 }
 
-.social a{
+.social a {
     width: 4rem;
 }
 
-.footer-nav{
+.footer-nav {
     padding-top: 2.5rem;
 }
 
-.footer-nav a{
-font-size: 1.6rem;
-font-family: "BarlowCondensed";
-font-weight: 400;
-font-style: normal;
-padding: 0.5rem;
-text-align: center;
+.footer-nav a {
+    font-size: 1.6rem;
+    font-family: "BarlowCondensed";
+    font-weight: 400;
+    font-style: normal;
+    padding: 0.5rem;
+    text-align: center;
 }
 
-.header-footer-form p{
+.header-footer-form p {
     font-size: 2rem;
     padding-top: 3rem;
 }
 
-.newsletter-form{
+.newsletter-form {
     margin-bottom: 3rem;
 }
 
-.bottom-br{
+.bottom-br {
     background-color: #3355FF;
 }
 
-.bottom-br p{
+.bottom-br p {
     color: #FFFFFF;
     font-family: "BarlowCondensed";
     font-weight: 100;
@@ -676,62 +675,127 @@ text-align: center;
     padding-top: 1rem;
 }
 
-.whastapp{
+.whastapp {
     position: fixed;
     bottom: 3.5rem;
     right: 1rem;
 }
 
+/* MODALS */
+
+.modal-container {
+    background-color: #EBEBEB;
+    border-radius: 10px;
+}
+
+.img-container {
+    padding: 2rem;
+    margin-left: 2rem;
+}
+
+.img-modal {
+    -webkit-box-shadow: 9px 9px 0px -1px rgba(51, 85, 255, 1);
+    -moz-box-shadow: 9px 9px 0px -1px rgba(51, 85, 255, 1);
+    box-shadow: 9px 9px 0px -1px rgba(51, 85, 255, 1);
+    width: 16rem;
+
+}
+
+.rayas-modal {
+    position: absolute;
+    width: 8rem;
+    right: 2rem;
+    margin-top: 0.5rem;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    color: #3355FF;
+    font-family: "BarlowCondensed";
+    font-weight: 600;
+    font-style: italic;
+}
+
+.modal-subtitle {
+    color: #3355FF;
+    font-family: "BarlowCondensed";
+    font-weight: 200;
+    font-style: normal;
+}
+
+.desc-title {
+    font-size: 1.5rem;
+    font-family: "BarlowCondensed";
+    font-weight: 600;
+    font-style: italic;
+}
+.desc-text{
+    font-family: "BarlowCondensed";
+    font-weight: 200;
+    font-style: normal;
+}
+.description-team{
+    line-height: 1rem;
+}
+
 
 /* MEDIA QUERIES */
 
-@media(max-width:1042px){
+@media(max-width:1042px) {
     #services .cuadricula-services {
         margin-left: -3rem;
-    } 
-}
-
-@media(max-width:1190px){
-    .flechas{
-        display: none;
-    }
-    .img-flechas{
-        display: none;
     }
 }
 
- @media(max-width:992px){
+@media(max-width:1190px) {
+    .flechas {
+        display: none;
+    }
+
+    .img-flechas {
+        display: none;
+    }
+}
+
+@media(max-width:992px) {
     #services .cuadricula-services {
         margin-left: 0rem;
-    }  
+    }
+
     #work .rombos-img {
-        display: none;  
-    }
-    #work .rayas-horizontal{
-       display: none;
-    }
-    .cuad-teams{ 
         display: none;
     }
-    .img-rayas{
+
+    #work .rayas-horizontal {
         display: none;
     }
-    #services-img{
+
+    .cuad-teams {
+        display: none;
+    }
+
+    .img-rayas {
+        display: none;
+    }
+
+    #services-img {
         margin-left: -2rem;
     }
-} 
+}
 
-@media(max-width:767px){
-    #services-img{
+@media(max-width:767px) {
+    #services-img {
         display: none;
     }
 }
 
-@media(max-width:693px){
+@media(max-width:693px) {
     #header .logo-header-container {
-      margin-left: 0;
+        margin-left: 0;
     }
-    .info-nav{
+
+    .info-nav {
         margin-right: 0rem;
         margin-left: -3rem;
     }
@@ -741,10 +805,10 @@ text-align: center;
     text-align: left;
     font-family: "Helvetica", sans-serif;
     color: #c0ccda;
-  }
+}
 
-  #sib-container input::placeholder {
+#sib-container input::placeholder {
     text-align: left;
     font-family: "Helvetica", sans-serif;
     color: #c0ccda;
-  }
+}
