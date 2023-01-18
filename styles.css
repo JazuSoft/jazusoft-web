@@ -682,6 +682,10 @@ input:focus {
     position: fixed;
     bottom: 3.5rem;
     right: 1rem;
+}
+
+.whastapp img{
+
     height: 80px;
 }
 
