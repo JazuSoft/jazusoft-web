@@ -712,6 +712,7 @@ input:focus {
 .modal-container {
     background-color: #EBEBEB;
     border-radius: 10px;
+    margin-top: 5rem;
 }
 
 .img-container {
