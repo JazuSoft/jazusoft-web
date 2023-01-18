@@ -259,6 +259,7 @@ section {
     position: relative;
     background-color: #EBEBEB;
     overflow-x: hidden;
+    padding-bottom: 3rem;
 }
 
 #work .rombos {
@@ -417,8 +418,8 @@ section {
 #work .rayas-horizontal {
     height: 320px;
     transform: rotate(90deg);
-    position: relative;
-    bottom: 7.7rem;
+    position: absolute;
+    bottom: 0rem;
     left: 72%;
 }
 
@@ -545,7 +546,9 @@ section {
 
 .text-contact {
     padding-left: 8px;
-    font-family: "BarlowCondensed-Regular";
+    font-family: "BarlowCondensed";
+    font-weight: 400;
+    font-style: normal;
     padding-top: 1rem;
 }
 
@@ -679,6 +682,7 @@ input:focus {
     position: fixed;
     bottom: 3.5rem;
     right: 1rem;
+    height: 80px;
 }
 
 /* MODALS */
@@ -720,7 +724,7 @@ input:focus {
 .modal-subtitle {
     color: #3355FF;
     font-family: "BarlowCondensed";
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -730,12 +734,14 @@ input:focus {
     font-weight: 600;
     font-style: italic;
 }
-.desc-text{
+
+.desc-text {
     font-family: "BarlowCondensed";
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
 }
-.description-team{
+
+.description-team {
     line-height: 1rem;
 }
 
