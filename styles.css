@@ -723,8 +723,8 @@ input:focus {
 /* MODALS */
 
 .modal-container {
-    background-color: #EBEBEB;
-    border-radius: 10px;
+    background-color: #EBEBEB !important;
+    border-radius: 10px !important;
     margin-top: 5rem;
 }
 
@@ -744,11 +744,11 @@ input:focus {
 .rayas-modal {
     position: absolute;
     width: 8rem;
-    right: 2rem;
+    right: 3rem;
     margin-top: 0.5rem;
 }
 
-.modal-title {
+.modal-title-2 {
     font-size: 1.5rem;
     margin-top: 3rem;
     color: #3355FF;
@@ -781,6 +781,33 @@ input:focus {
     line-height: 1rem;
 }
 
+.bt-close{
+    position: relative;
+}
+
+.bt-close button{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+}
+
+.bt-close-team{
+    position: relative;
+}
+
+.bt-close-team button{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    cursor: pointer;
+}
+
+.logo-modal{
+    position: absolute;
+    left: 45rem;
+    bottom: 1rem;
+}
 
 /* MEDIA QUERIES */
 
