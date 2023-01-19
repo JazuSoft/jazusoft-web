@@ -44,7 +44,7 @@ section {
     padding: 0 32px;
     width: 100%;
     z-index: 999999999;
-    height: 86px;
+    height: 70px;
     background-color: #F5F5F5;
     display: flex;
     align-items: center;
@@ -60,7 +60,7 @@ section {
 
 #header .logo-header-container {
     width: 206px;
-    height: 86px;
+    height: 70px;
     margin: 0 48px;
 }
 
