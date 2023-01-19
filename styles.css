@@ -661,6 +661,10 @@ input:focus {
     width: 4rem;
 }
 
+#footer  .logo {
+ height: 150px;
+}
+
 .footer-nav {
     padding-top: 2.5rem;
 }
