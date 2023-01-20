@@ -38,7 +38,7 @@ section {
 
 /* HEADER */
 
-#header {
+/* #header {
     top: 0;
     position: fixed;
     padding: 0 32px;
@@ -49,7 +49,10 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
+
+
+
 
 #header a {
     margin: 0 16px;
@@ -62,6 +65,9 @@ section {
     width: 206px;
     height: 70px;
     margin: 0 48px;
+}
+#header .navbar-nav{
+    margin-left: 60% !important;
 }
 
 #header .logo-header {
@@ -77,6 +83,11 @@ section {
 /* INICIO */
 #inicio {
     margin: 80px 0;
+}
+
+#inicio-scroll{
+    position: absolute;
+    top: -70px;
 }
 
 #inicio .circle {
@@ -142,6 +153,11 @@ section {
     position: relative;
     padding-bottom: 60px;
 
+}
+
+#services-scroll{
+    position: absolute;
+    top: -70px;
 }
 
 #services .section-title {
@@ -278,6 +294,12 @@ section {
     background-color: #EBEBEB;
     overflow-x: hidden;
     padding-bottom: 3rem;
+    
+}
+
+#work-scroll{
+    position: absolute;
+    top: -70px;
 }
 
 #work .rombos {
@@ -446,6 +468,12 @@ section {
 #team {
     background-color: #FFFFFF;
     overflow-y: hidden;
+    position: relative;
+}
+
+#team-scroll{
+    position: absolute;
+    top: -70px;
 }
 
 .background-img {
@@ -529,6 +557,11 @@ section {
     position: relative;
     background-color: #EBEBEB;
     padding-bottom: 60px;
+}
+
+#contact-scroll{
+    position: absolute;
+    top: -70px;
 }
 
 .flechas-contact {
@@ -838,5 +871,67 @@ margin-top: 0;
     bottom: 1rem;
 }
 
+/* RESPONSIVE */
 
+@media (max-width: 575px) {
+    #services .cuadricula-services {
+        width: 100%;
+        max-width: 600px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-row: auto auto auto auto;
+        grid-row-gap: 50px;
+        position: relative;
+        margin-bottom: 10rem;
+        padding-left: 6rem;
+        padding-right: 5rem;
+    
+    }
+}
 
+@media (max-width: 767px){
+    .formulario{
+        padding-left: 0;
+        padding-bottom: 1rem;
+    }
+    #contact .head-right{
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 1081px) {
+    #header .navbar-nav{
+        margin-left: 30% !important;
+    }  
+}
+
+@media (max-width: 1113px) {
+    #header .navbar-nav{
+        margin-left: 35% !important;
+    }
+}
+
+@media (max-width: 1033px) {
+    #header .navbar-nav{
+        margin-left: 45% !important;
+    }
+}
+
+@media (max-width: 1205px) {
+    #header .navbar-nav{
+        margin-left: 50% !important;
+    }
+}
+
+@media (min-width: 1381px) {
+    #header .navbar-nav{
+        margin-left: 65% !important;
+    }
+}
+
+@media (min-width: 1624px) {
+    #header .navbar-nav{
+        margin-left: 70% !important;
+    }
+}
