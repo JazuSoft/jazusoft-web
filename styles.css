@@ -87,7 +87,7 @@ section {
 
 #inicio-scroll{
     position: absolute;
-    top: -90px;
+    top: -70px;
 }
 
 #inicio .circle {
@@ -157,7 +157,7 @@ section {
 
 #services-scroll{
     position: absolute;
-    top: -90px;
+    top: -70px;
 }
 
 #services .section-title {
@@ -299,7 +299,7 @@ section {
 
 #work-scroll{
     position: absolute;
-    top: -90px;
+    top: -70px;
 }
 
 #work .rombos {
@@ -473,7 +473,7 @@ section {
 
 #team-scroll{
     position: absolute;
-    top: -90px;
+    top: -70px;
 }
 
 .background-img {
@@ -561,7 +561,7 @@ section {
 
 #contact-scroll{
     position: absolute;
-    top: -90px;
+    top: -70px;
 }
 
 .flechas-contact {
