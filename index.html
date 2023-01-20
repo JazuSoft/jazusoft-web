@@ -38,7 +38,7 @@
   </header>
   <!-- INICIO -->
   <section id="inicio">
-    <div class="circle"></div>
+    <div class="circle d-none d-sm-block"></div>
     <div class="container">
       <div class="row">
         <div class="col-sm-7">
@@ -82,7 +82,7 @@
 
   <!-- SERVICES -->
   <section id="services">
-    <div class="rayas">
+    <div class="rayas d-none d-sm-block d-sm-none d-md-block">
       <img class="img-rayas" src="./assets/images/services/rayas.svg" alt="rayas" />
     </div>
     <div class="container">
@@ -92,7 +92,7 @@
         </div>
       </div>
       <div class="row services-details">
-        <div id="services-img" class="col-md-6">
+        <div id="services-img" class="col-md-6 d-none d-sm-block d-sm-none d-md-block">
           <div class="text-center">
             <img class="service-team-img" src="./assets/images/services/annie-spratt-MChSQHxGZrQ-unsplash.png"
               alt="img-services" />
@@ -183,10 +183,10 @@
   </section>
 
   <section id="work">
-    <div class="rombos">
+    <div class="rombos d-none d-sm-block d-sm-none d-md-block">
       <img class="rombos-img" src="./assets/SVG/web-elements-02-rombos.svg" alt="rombos" />
     </div>
-    <div class="rayas-img">
+    <div class="rayas-img d-none d-sm-block d-sm-none d-md-block">
       <img class="rayas-horizontal" src="./assets/images/services/rayas.svg" alt="rayas-horizontal" />
     </div>
     <div class="container">
@@ -198,7 +198,7 @@
 
       <div class="work-details row">
         <div class="col-md-5">
-          <div class="notebook-container">
+          <div class="notebook-container d-none d-sm-block d-sm-none d-md-block">
             <img class="notebook" src="./assets/SVG/notebook.svg" alt="notebook" />
           </div>
           <div class="card card-left" style="background-image: url('./assets/images/work/work01.jpg')">
@@ -298,7 +298,7 @@
   </section>
 
   <section id="team">
-    <div class="cuadricula-teams">
+    <div class="cuadricula-teams d-none d-sm-block d-sm-none d-md-block">
       <img class="cuad-teams" src="./assets/SVG/web-elements-03-cuadricula.svg" alt="cuadricula-teams" />
     </div>
     <div class="background-img">
@@ -310,8 +310,153 @@
           <h2 class="section-title">Our Team</h2>
         </div>
       </div>
-      <div class="row team-details">
-
+      <div class="carrusel row d-md-none" id="carrusel">
+        <div class="col">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carrusel-team">
+                  <div class="c-image" >
+                    <img src="./assets/images/team/team01.png" class="d-block w-100" alt="foto">
+                  </div>
+                  <div class="c-desc">
+                    <h6 class="modal-title-2">David McHenry</h6>
+                    <p class="modal-subtitle">UI/UX Designer</p>
+                    <p class="desc-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, incidunt, nulla rerum
+                      placeat magni minima est porro voluptas ad, beatae repellendus officiis voluptatum aut nemo quisquam ab
+                      cumque ratione explicabo!
+                    </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carrusel-team">
+                  <div class="c-image">
+                    <img src="./assets/images/team/team02.png" class="d-block w-100" alt="foto">
+                  </div>
+                  <div class="c-desc">
+                    <p class="modal-title-2">Frank Kirk</h2>
+                      <p class="modal-subtitle">Frontend Developer</p>
+                      <p class="desc-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, incidunt, nulla rerum
+                        placeat magni minima est porro voluptas ad, beatae repellendus officiis voluptatum aut nemo quisquam ab
+                        cumque ratione explicabo!
+                      </p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carrusel-team">
+                  <div class="c-image">
+                    <img src="./assets/images/team/team05.png" class="d-block w-100" alt="foto">
+                  </div>
+                  <div class="c-desc">
+                    <p class="modal-title-2">Rafael Morales</h2>
+                      <p class="modal-subtitle">Backend Developer</p>
+                      <p class="desc-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, incidunt, nulla rerum
+                        placeat magni minima est porro voluptas ad, beatae repellendus officiis voluptatum aut nemo quisquam ab
+                        cumque ratione explicabo!
+                      </p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carrusel-team">
+                  <div class="c-image">
+                    <img src="./assets/images/team/team06.png" class="d-block w-100" alt="foto">
+                  </div>
+                  <div class="c-desc">
+                    <p class="modal-title-2">Mark Ellison</h2>
+                      <p class="modal-subtitle">Full Stack Developer</p>
+                      <p class="desc-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, incidunt, nulla rerum
+                        placeat magni minima est porro voluptas ad, beatae repellendus officiis voluptatum aut nemo quisquam ab
+                        cumque ratione explicabo!
+                      </p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carrusel-team">
+                  <div class="c-image">
+                    <img src="./assets/images/team/team03.png" class="d-block w-100" alt="foto">
+                  </div>
+                  <div class="c-desc">
+                    <p class="modal-title-2">Minnie Walter</h2>
+                      <p class="modal-subtitle">Frontend Developer</p>
+                      <p class="desc-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, incidunt, nulla rerum
+                        placeat magni minima est porro voluptas ad, beatae repellendus officiis voluptatum aut nemo quisquam ab
+                        cumque ratione explicabo!
+                      </p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carrusel-team">
+                  <div class="c-image">
+                    <img src="./assets/images/team/team04.png" class="d-block w-100" alt="foto">
+                  </div>
+                  <div class="c-desc">
+                    <p class="modal-title-2">Shirley Smith</h2>
+                      <p class="modal-subtitle">UI/UX Designer</p>
+                      <p class="desc-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, incidunt, nulla rerum
+                        placeat magni minima est porro voluptas ad, beatae repellendus officiis voluptatum aut nemo quisquam ab
+                        cumque ratione explicabo!
+                      </p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carrusel-team">
+                  <div class="c-image">
+                    <img src="./assets/images/team/team07.png" class="d-block w-100" alt="foto">
+                  </div>
+                  <div class="c-desc">
+                    <p class="modal-title-2">John Santiago</h2>
+                      <p class="modal-subtitle">Full Stack Developer</p>
+                      <p class="desc-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, incidunt, nulla rerum
+                        placeat magni minima est porro voluptas ad, beatae repellendus officiis voluptatum aut nemo quisquam ab
+                        cumque ratione explicabo!
+                      </p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carrusel-team">
+                  <div class="c-image">
+                    <img src="./assets/images/team/team08.png" class="d-block w-100" alt="foto">
+                  </div>
+                  <div class="c-desc">
+                    <p class="modal-title-2">Colin Melton</h2>
+                      <p class="modal-subtitle">Backend Developer</p>
+                        <p class="desc-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, incidunt, nulla rerum
+                          placeat magni minima est porro voluptas ad, beatae repellendus officiis voluptatum aut nemo quisquam ab
+                          cumque ratione explicabo!
+                        </p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row team-details   d-none d-md-flex ">
         <div class="team-card col-md-3">
           <a class="card-link" data-bs-toggle="modal" data-bs-target="#modalDavid" href="#modalDavid">
             <img class="card-img" src="./assets/images/team/team01.png" alt="team-card" />
@@ -387,7 +532,7 @@
       </div>
   </section>
   <section id="contact">
-    <div class="flechas-contact">
+    <div class="flechas-contact d-none d-sm-block d-sm-none d-md-block">
       <img class="flechas" src="./assets/SVG/web-elements-05-mayorq.svg" alt="deco" />
     </div>
     <div class="container">
@@ -443,7 +588,7 @@
     </div>
     </div>
     <div class="row">
-      <div class="col-md-2 offset-md-10">
+      <div class="col-md-2 offset-md-10 d-none d-sm-block d-sm-none d-md-block">
 
         <img class="img-flechas" src="./assets/SVG/2-flechas.svg" alt="2-flechas" />
 
@@ -473,7 +618,7 @@
                 alt="linkedin"></a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 d-none d-sm-block d-sm-none d-md-block">
           <div class="footer-nav row">
             <a href="#inicio">Home</a>
 
