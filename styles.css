@@ -720,6 +720,35 @@ input:focus {
     height: 80px;
 }
 
+/* CAROUSEL TEAM */
+.carrusel{
+    margin-bottom: 5rem;
+}
+.carrusel-team{
+    background-color: #EBEBEB;  
+    border-radius: 10px;
+}
+
+.c-image{
+    width: 100%;
+}
+.c-desc{
+    width: 100%;
+    padding: 1rem ;
+    text-align: center;
+}
+#carrusel .modal-title-2{
+    margin-top: 0;
+}
+
+#carrusel .modal-subtitle{
+font-weight: 400;
+margin-top: 0;
+}
+
+#carrusel .desc-text{
+    font-weight: 400;
+    }
 /* MODALS */
 
 .modal-container {
@@ -809,75 +838,5 @@ input:focus {
     bottom: 1rem;
 }
 
-/* MEDIA QUERIES */
 
-@media(max-width:1042px) {
-    #services .cuadricula-services {
-        margin-left: -3rem;
-    }
-}
 
-@media(max-width:1190px) {
-    .flechas {
-        display: none;
-    }
-
-    .img-flechas {
-        display: none;
-    }
-}
-
-@media(max-width:992px) {
-    #services .cuadricula-services {
-        margin-left: 0rem;
-    }
-
-    #work .rombos-img {
-        display: none;
-    }
-
-    #work .rayas-horizontal {
-        display: none;
-    }
-
-    .cuad-teams {
-        display: none;
-    }
-
-    .img-rayas {
-        display: none;
-    }
-
-    #services-img {
-        margin-left: -2rem;
-    }
-}
-
-@media(max-width:767px) {
-    #services-img {
-        display: none;
-    }
-}
-
-@media(max-width:693px) {
-    #header .logo-header-container {
-        margin-left: 0;
-    }
-
-    .info-nav {
-        margin-right: 0rem;
-        margin-left: -3rem;
-    }
-}
-
-#sib-container input:-ms-input-placeholder {
-    text-align: left;
-    font-family: "Helvetica", sans-serif;
-    color: #c0ccda;
-}
-
-#sib-container input::placeholder {
-    text-align: left;
-    font-family: "Helvetica", sans-serif;
-    color: #c0ccda;
-}
