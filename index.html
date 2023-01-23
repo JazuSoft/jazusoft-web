@@ -29,23 +29,23 @@
   <header id="header">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" >
       <div class="container-fluid" >
-        <a class="navbar-brand " href="#inicio-scroll"><img width="206" height="70" src="./assets/SVG/logo/logo-07.svg" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand"  href="#inicio-scroll"><img width="206" height="70" src="./assets/SVG/logo/logo-07.svg" alt="logo"></a>
+        <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse"  id="navbarSupportedContent">
           <ul class="navbar-nav me-2 mb-2 mb-lg-0 ">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#services-scroll">SERVICES</a>
+            <li class="nav-item" id="services-item">
+              <a onclick="navScroll('services-scroll')" class="nav-link active" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="#services-item" data-bs-target="#navbarSupportedContent" aria-current="page" href="#services-scroll">SERVICES</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link"  href="#work-scroll">WORK</a>
+            <li class="nav-item" id="work-item">
+              <a onclick="navScroll('work-scroll')" class="nav-link " data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="#work-item" data-bs-target="#navbarSupportedContent"  href="#work-scroll">WORK</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#team-scroll">TEAM</a>
+            <li class="nav-item" id="team-item">
+              <a onclick="navScroll('team-scroll')" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="#team-item" data-bs-target="#navbarSupportedContent"  href="#team-scroll">TEAM</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact-scroll">CONTACT</a>
+            <li class="nav-item" id="contact-item">
+              <a onclick="navScroll('contact-scroll')" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="#contact-item" data-bs-target="#navbarSupportedContent" href="#contact-scroll">CONTACT</a>
             </li>
           </ul>
          
@@ -574,12 +574,12 @@
       </div>
       <div class="row contact-details">
         <div class="col-md-6">
-          <div class="mapa d-none d-sm-block">
+          <div class="mapa d-none d-md-block">
             <img
               src="https://maps.googleapis.com/maps/api/staticmap?size=600x400&maptype=roadmap&markers=color:red|-31.3815278,-64.2407394&zoom=15&key=AIzaSyDpRfUG7CZAYibqQkkj1eKEkqPZZAtnGb4"
               alt="mapa"></img>
           </div>
-          <div class="datos-contact d-none d-sm-block">
+          <div class="datos-contact d-none d-md-block">
             <div class="item-contact">
               <img class="img-contact" src="./assets/SVG/phone-solid.svg" alt="phone" />
               <p class="text-contact">+54 9 11 3080-3438 / +54 9 11 3868-3994</p>

@@ -45,3 +45,6 @@ let anio = date.getFullYear();
 document.getElementById('anio').innerHTML = anio;
 
 
+function navScroll(id){
+    document.getElementById(id).scrollIntoView();
+}
