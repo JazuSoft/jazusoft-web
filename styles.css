@@ -58,9 +58,6 @@ section {
     margin: 0 48px;
 }
 
-/* #header .navbar-nav {
-    margin-left: 60% !important;
-} */
 
 #header .logo-header {
     background-image: url('./assets/SVG/logo/logo-07.svg');
@@ -941,45 +938,3 @@ input:focus {
    
 }
 
-/* @media (max-width:991px){
-    #header .navbar-nav {
-        margin-left: 0% !important;
-    }
-} 
-
-
-@media (max-width: 1081px) {
-    #header .navbar-nav {
-        margin-left: 30% !important;
-    }
-}
-
-@media (max-width: 1113px) {
-    #header .navbar-nav {
-        margin-left: 35% !important;
-    }
-}
-
-@media (max-width: 1033px) {
-    #header .navbar-nav {
-        margin-left: 45% !important;
-    }
-}
-
-@media (max-width: 1205px) {
-    #header .navbar-nav {
-        margin-left: 50% !important;
-    }
-}
-
-@media (min-width: 1381px) {
-    #header .navbar-nav {
-        margin-left: 65% !important;
-    }
-}
-
-@media (min-width: 1624px) {
-    #header .navbar-nav {
-        margin-left: 70% !important;
-    }
-} */
