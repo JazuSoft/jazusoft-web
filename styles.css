@@ -66,7 +66,8 @@ section {
     height: 70px;
     margin: 0 48px;
 }
-#header .navbar-nav{
+
+#header .navbar-nav {
     margin-left: 60% !important;
 }
 
@@ -79,13 +80,20 @@ section {
     background-size: contain;
 }
 
+#menu-hamb {
+    margin-right: 1.5rem ;
+}
+
+.nav-header {
+    border-bottom: 1px solid rgb(235, 232, 232);
+}
 
 /* INICIO */
 #inicio {
     margin: 80px 0;
 }
 
-#inicio-scroll{
+#inicio-scroll {
     position: absolute;
     top: -70px;
 }
@@ -104,9 +112,9 @@ section {
 #inicio .header-inicio {
 
     font-family: "HeadingNowTrial";
-    font-size: 6rem;
+    font-size: 6rem !important;
     font-weight: 550;
-    line-height: 4rem;
+    line-height: 5rem;
     color: #141433;
     z-index: 9;
     margin-top: -18%;
@@ -155,7 +163,7 @@ section {
 
 }
 
-#services-scroll{
+#services-scroll {
     position: absolute;
     top: -70px;
 }
@@ -193,16 +201,17 @@ section {
     z-index: 999;
 }
 
-.contador{
+.contador {
     margin-left: 2rem;
     display: flex;
 }
-.dato-contador{
+
+.dato-contador {
     margin-left: 2rem;
-   
+
 }
 
-#services .dato-contador .contador-text{
+#services .dato-contador .contador-text {
     font-size: 20px;
 }
 
@@ -212,17 +221,19 @@ section {
 }
 
 #services .contador-container .colum .contador-number {
-    
+
     line-height: 15px;
     padding: 15px 0px;
     margin-top: 20px;
-    
+
 }
-.contador-text{
+
+.contador-text {
     font-family: "BarlowCondensed";
     font-size: 40px;
     color: #FFF;
 }
+
 #services .cuadricula-services {
     width: 100%;
     max-width: 450px;
@@ -293,10 +304,10 @@ section {
     background-color: #EBEBEB;
     overflow-x: hidden;
     padding-bottom: 3rem;
-    
+
 }
 
-#work-scroll{
+#work-scroll {
     position: absolute;
     top: -70px;
 }
@@ -470,7 +481,7 @@ section {
     position: relative;
 }
 
-#team-scroll{
+#team-scroll {
     position: absolute;
     top: -70px;
 }
@@ -558,7 +569,7 @@ section {
     padding-bottom: 60px;
 }
 
-#contact-scroll{
+#contact-scroll {
     position: absolute;
     top: -70px;
 }
@@ -693,8 +704,8 @@ input:focus {
     width: 4rem;
 }
 
-#footer  .logo {
- height: 150px;
+#footer .logo {
+    height: 150px;
 }
 
 .footer-nav {
@@ -745,42 +756,47 @@ input:focus {
     position: fixed;
     bottom: 3.5rem;
     right: 1rem;
+    z-index: 999999999999999;
 }
 
-.whastapp img{
+.whastapp img {
 
     height: 80px;
 }
 
 /* CAROUSEL TEAM */
-.carrusel{
+.carrusel {
     margin-bottom: 5rem;
 }
-.carrusel-team{
-    background-color: #EBEBEB;  
+
+.carrusel-team {
+    background-color: #EBEBEB;
     border-radius: 10px;
 }
 
-.c-image{
+.c-image {
     width: 100%;
 }
-.c-desc{
+
+.c-desc {
     width: 100%;
-    padding: 1rem ;
+    padding: 1rem;
     text-align: center;
 }
-#carrusel .modal-title-2{
+
+#carrusel .modal-title-2 {
     margin-top: 0;
 }
 
-#carrusel .modal-subtitle{
-font-weight: 400;
-margin-top: 0;
+#carrusel .modal-subtitle {
+    font-weight: 400;
+    margin-top: 0;
 }
 
-#carrusel .desc-text{
+#carrusel .desc-text {
     font-weight: 400;
-    }
+}
+
 /* MODALS */
 
 .modal-container {
@@ -789,17 +805,8 @@ margin-top: 0;
     margin-top: 5rem;
 }
 
-.img-container {
-    padding: 2rem;
-    margin-left: 2rem;
-}
-
 .img-modal {
-    -webkit-box-shadow: 9px 9px 0px -1px rgba(51, 85, 255, 1);
-    -moz-box-shadow: 9px 9px 0px -1px rgba(51, 85, 255, 1);
-    box-shadow: 9px 9px 0px -1px rgba(51, 85, 255, 1);
-    width: 16rem;
-
+    width: 100%;
 }
 
 .rayas-modal {
@@ -842,35 +849,47 @@ margin-top: 0;
     line-height: 1rem;
 }
 
-.bt-close{
+.bt-close {
     position: relative;
 }
 
-.bt-close button{
+.bt-close button {
     position: absolute;
     right: 1rem;
     top: 1rem;
     cursor: pointer;
 }
 
-.bt-close-team{
+.bt-close-team {
     position: relative;
 }
 
-.bt-close-team button{
+.bt-close-team button {
     position: absolute;
     right: 0.5rem;
     top: 0.5rem;
     cursor: pointer;
 }
 
-.logo-modal{
+.logo-modal {
     position: absolute;
     left: 45rem;
     bottom: 1rem;
 }
 
 /* RESPONSIVE */
+
+@media (max-width: 367px) {
+    .img2-inicio{
+     top: 45rem !important;
+    }
+ }
+
+@media (max-width: 395px) {
+    .img2-inicio{
+     top: 31.5rem !important;
+    }
+ }
 
 @media (max-width: 575px) {
     #services .cuadricula-services {
@@ -885,64 +904,92 @@ margin-top: 0;
         margin-bottom: 1rem;
         padding-left: 3rem;
         padding-right: 1rem;
-        text-align: center ;
+        text-align: center;
     }
 }
 
-@media (max-width: 767px){
-    .formulario{
+@media (max-width: 767px) {
+    .formulario {
         padding-left: 0;
         padding-bottom: 1rem;
     }
-    #contact .head-right{
+
+    #contact .head-right {
         margin-top: 2rem;
     }
 
-    .img-modal-work img{
-width: 75% !important;
-padding: 1rem;
-margin-left: 4%;
-margin-top: 2rem;
+    .img-modal-work img {
+        width: 100% !important;
+        padding: 0;
+        margin: 0;
     }
 
-    .description-team{
+    .description-team {
         padding: 3rem !important;
         padding-top: 0 !important;
     }
+
+    .img2-inicio {
+        position: absolute;
+        width: 5rem !important;
+        z-index: 999999;
+        top: 27rem;
+        left: 1rem;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .section-title{
+        margin-top: 3rem !important;
+    }
+    .logo-nav{
+        margin-left: -2rem !important;
+    }
+
+   
+  
 }
 
+@media (max-width:991px){
+     .nav-links{
+        padding-right: 35% !important;
+    } 
+} 
+
+
 @media (max-width: 1081px) {
-    #header .navbar-nav{
+    #header .navbar-nav {
         margin-left: 30% !important;
-    }  
+    }
 }
 
 @media (max-width: 1113px) {
-    #header .navbar-nav{
+    #header .navbar-nav {
         margin-left: 35% !important;
     }
 }
 
 @media (max-width: 1033px) {
-    #header .navbar-nav{
+    #header .navbar-nav {
         margin-left: 45% !important;
     }
 }
 
 @media (max-width: 1205px) {
-    #header .navbar-nav{
+    #header .navbar-nav {
         margin-left: 50% !important;
     }
 }
 
 @media (min-width: 1381px) {
-    #header .navbar-nav{
+    #header .navbar-nav {
         margin-left: 65% !important;
     }
 }
 
 @media (min-width: 1624px) {
-    #header .navbar-nav{
+    #header .navbar-nav {
         margin-left: 70% !important;
     }
 }
