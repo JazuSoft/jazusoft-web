@@ -6,7 +6,7 @@
 }
 
 body {
-    overflow-x: hidden;
+   overflow-x: hidden;
 }
 
 h2 {
@@ -80,6 +80,7 @@ section {
 /* INICIO */
 #inicio {
     margin: 80px 0;
+    overflow: hidden;
 }
 
 #inicio-scroll {
@@ -158,6 +159,7 @@ section {
     color: #FFFFFF !important;
     position: relative;
     padding-bottom: 10px;
+    overflow: hidden;
 
 }
 
@@ -966,5 +968,11 @@ input:focus {
     }
 
    
+}
+
+@media (min-width: 1800px){
+    #video video{
+        right: 12rem;
+    }
 }
 
