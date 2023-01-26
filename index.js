@@ -23,16 +23,15 @@ function animateValue(id, start, end, duration) {
 //animacion del contador al pasar por el objeto
 
 window.addEventListener('scroll', function(){
-    
-    let animacion = document.getElementById('contador');
+    let animacion = document.getElementById('services');
     let posicion = animacion.getBoundingClientRect().top;
     
     let tPantalla = window.innerHeight*0.95;
     
     if(posicion < tPantalla && animado == false){
-        animateValue("valueA", 0, 150, 2000);
-        animateValue("valueB", 0, 20, 2000);
-        animateValue("valueC", 0, 3, 2000);
+        animateValue("valueA", 0, 15, 2000);
+        animateValue("valueB", 0, 1352, 2000);
+        animateValue("valueC", 0, 566, 2000);
         animado = true;
     };
     

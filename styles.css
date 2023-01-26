@@ -147,8 +147,30 @@ section {
     background-color: #3355FF;
     color: #FFFFFF !important;
     position: relative;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
 
+}
+
+#services .parallax {
+    /* The image used */
+    background-image: url("./assets/images/services/annie-spratt-MChSQHxGZrQ-unsplash.png");
+
+    width: 50vw;
+    height: 100%;
+    position: absolute;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#services .parallax .overlay{
+    background-color: #000443;
+    opacity: 0.7;
+    width: 50vw;
+    height: 100%;
+    position: absolute;
 }
 
 #services-scroll {
@@ -158,11 +180,13 @@ section {
 
 #services .section-title {
     color: #fff;
+    text-align: left;
 }
 
 #services .rayas {
     position: absolute;
     top: 3rem;
+    right: 0;
 }
 
 #services .services-details {
@@ -178,15 +202,14 @@ section {
 #services .contador-container {
     position: relative;
     width: 100%;
-    margin-top: -45px !important;
     margin: auto;
-    height: 6rem;
-    padding-right: 30px;
-    max-width: 360px;
-    background-color: #00FF94C2;
-    border-radius: 5%;
-    border-bottom-right-radius: 50px;
-    z-index: 999;
+}
+
+#services .container-data {
+    display: flex;
+    height: 100%;
+    align-content: center;
+    align-items: center;
 }
 
 .contador {
@@ -199,27 +222,24 @@ section {
 
 }
 
-#services .dato-contador .contador-text {
-    font-size: 20px;
-}
-
-#services .contador-container .colum {
-    vertical-align: middle;
-    text-align: center;
-}
-
-#services .contador-container .colum .contador-number {
-
-    line-height: 15px;
-    padding: 15px 0px;
-    margin-top: 20px;
-
+.contador-container {
+    opacity: 0.8;
+    margin: 4vh 0 4vh 1vw!important;
 }
 
 .contador-text {
-    font-family: "BarlowCondensed";
     font-size: 40px;
     color: #FFF;
+    font-size: 12vh;
+    line-height: 10vh;
+}
+
+.contador-number {
+    font-family: "BarlowCondensed";
+    font-size: 10vh;
+    line-height: 8vh;
+    color: #FFF;
+    margin:0;
 }
 
 #services .cuadricula-services {
