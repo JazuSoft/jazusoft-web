@@ -88,7 +88,7 @@ section {
 }
 
 #inicio .circle {
-    background: #11163a;
+    background: #141434;
     width: 100vw;
     height: 100vw;
     position: absolute;
@@ -96,6 +96,15 @@ section {
     left: -40%;
     top: 0;
     border-radius: 50vw;
+}
+
+#video video{
+    position: relative;
+    right: 5rem;
+    top: 5rem;
+    border-top-right-radius: 200px;
+    width: 80%;
+    background-color: #141434;
 }
 
 #inicio .header-inicio {
