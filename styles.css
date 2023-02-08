@@ -970,6 +970,18 @@ input:focus {
    
 }
 
+@media (min-width: 1400px) {
+#services-content {
+    margin-left: 10%;
+}
+}
+
+@media (min-width: 1700px) {
+    #services-content {
+        margin-left: 25%;
+    }
+    }
+
 @media (min-width: 1800px){
     #video video{
         right: 12rem;
