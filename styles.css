@@ -72,10 +72,7 @@ section {
     margin-right: 1.5rem ;
 }
 
-.nav-header {
-    border-bottom: 1px solid rgb(235, 232, 232);
-    max-height: 80px;
-}
+
 
 /* INICIO */
 #inicio {
@@ -973,13 +970,20 @@ input:focus {
    
 }
 
+
+
 @media (max-width: 991px) {
 #services .box-txt{
     font-size: 0.7rem;
 }
 }
 
-
+@media (min-width: 991px){
+    .nav-header {
+        border-bottom: 1px solid rgb(235, 232, 232);
+        max-height: 80px;
+    }
+}
 
 @media (min-width: 1400px) {
 #services-content {
