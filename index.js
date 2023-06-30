@@ -47,3 +47,17 @@ document.getElementById('anio').innerHTML = anio;
 function navScroll(id){
     document.getElementById(id).scrollIntoView();
 }
+
+// change language
+
+let check = document.querySelector(".check");
+check.addEventListener('click', idioma);
+
+function idioma(){
+    let id = check.checked;
+    if(id == true){
+        location.href = 'spanish/index.html';
+    }else{
+        location.href = '../index.html';
+    }
+}

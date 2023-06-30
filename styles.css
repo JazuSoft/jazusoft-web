@@ -149,6 +149,42 @@ section {
     margin-top: 5%;
 }
 
+.en {
+    color: #333;
+}
+.es {
+    color: #3355FF;
+}
+.check{
+    position: relative;
+    width: 50px;
+}
+.check:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+}
+.check:after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff !important;
+    border-radius: 25px;
+    transition: 0.5s;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+.check:checked:after{
+    left: 25px;
+    border: 2px solid #3355FF;
+}
+.check:checked:before{
+    background: #3355FF;
+}
 /* SERVICES */
 
 #services {
