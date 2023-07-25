@@ -154,25 +154,26 @@ section {
 }
 .es {
     color: #3355FF;
+    margin-left: 31px;
 }
 .check{
-    position: relative;
-    width: 50px;
-    height: 20px;
+    position: absolute;
+    width: 1px;
+    margin-top: 5px;
 }
 .check:before{
     content: '';
     position: absolute;
-    width: 50px;
-    height: 25px;
+    width: 30px;
+    height: 15px;
     background: #333;
     border-radius: 25px;
 }
 .check:after{
     content: '';
     position: absolute;
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     background: #fff !important;
     border-radius: 25px;
     transition: 0.5s;
@@ -180,7 +181,7 @@ section {
     box-sizing: border-box;
 }
 .check:checked:after{
-    left: 25px;
+    left: 15px;
     border: 2px solid #3355FF;
 }
 .check:checked:before{
