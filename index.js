@@ -1,5 +1,5 @@
 // efecto contador
-var animado = false;
+let animado = false;
 
 function animateValue(id, start, end, duration) {
     if (start === end) return;
