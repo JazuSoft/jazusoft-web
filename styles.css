@@ -149,6 +149,42 @@ section {
     margin-top: 5%;
 }
 
+.en {
+    color: #333;
+}
+.es {
+    color: #3355FF;
+}
+.check{
+    position: relative;
+    width: 50px;
+}
+.check:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+}
+.check:after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff !important;
+    border-radius: 25px;
+    transition: 0.5s;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+.check:checked:after{
+    left: 25px;
+    border: 2px solid #3355FF;
+}
+.check:checked:before{
+    background: #3355FF;
+}
 /* SERVICES */
 
 #services {
@@ -598,10 +634,16 @@ section {
 
 .flechas {
     position: absolute;
-    top: 3rem;
+    top: 2.3rem;
     left: 2rem;
 
 }
+
+.input-form::placeholder, .textarea-form::placeholder {
+    color: black;
+    font-weight: 400;
+}
+
 
 #contact .contact-details {
     margin-top: 70px;
@@ -707,7 +749,7 @@ input:focus {
     font-family: "BarlowCondensed";
     font-weight: 400;
     font-style: normal;
-    text-align: center;
+    text-align: start;
     line-height: 0.2rem;
     color: black;
 }
