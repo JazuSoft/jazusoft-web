@@ -21,7 +21,7 @@ section {
 
 .section-title {
     text-align: center;
-    font-size: 100px !important;
+    font-size: 70px !important;
     font-weight: 550;
     margin-top: 2rem !important;
     color: inherit;
@@ -113,6 +113,15 @@ section {
 
 .carousel-indicators [data-bs-target] {
     background-color: black !important;
+}
+
+.carousel-inner{
+    height: 100%;
+}
+#imgCar2{
+    object-fit: scale-down!important;
+    width: 80%!important;
+    padding-bottom: 1rem!important;
 }
 
 #inicio .img2-inicio {
@@ -300,7 +309,7 @@ section {
 
 #work {
     background-color: rgba(21, 21, 49, 255) !important;
-    background-image: url(./assets/images/work/fondowork.png);
+    background-image: url(./assets/images/work/fondoclients.png);
 }
 
 .work-header {
@@ -329,12 +338,24 @@ section {
     position: relative;
     width: 100%;
     height: 100%!important;
+    z-index: 2;
+    bottom: 53%;
+    max-height: 18rem;
 }
-
+.whiteitem{
+    position: relative;
+    z-index: 1;
+    left: 0%;
+    top: -12%;
+}
+.card-left-work{
+     padding-right: 0!important;
+}
 .work-right {
     background-color: #3355FF;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    max-height: 18rem;
 }
 
 .box-image {
@@ -779,10 +800,15 @@ input:focus {
 .social {
     padding-top: 2rem;
     margin-bottom: 3rem;
+    margin-left: 1.5rem!important;
 }
 
 .social a {
     width: 4rem;
+}
+
+.social-img{
+    width: 3rem;
 }
 
 #footer .logo {
@@ -993,6 +1019,10 @@ input:focus {
     #services .box-txt {
         font-size: 1rem !important;
     }
+    .social{
+        justify-content: center;
+        margin-left: 0!important;
+    }
 
     .formulario {
         padding-left: 0;
@@ -1046,13 +1076,16 @@ input:focus {
 
 
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     #services .box-txt {
         font-size: 0.7rem;
     }
 
     .data-footer p {
         line-height: 1rem;
+    }
+    #workbig{
+        display: none;
     }
 
 }
@@ -1063,7 +1096,24 @@ input:focus {
         max-height: 80px;
     }
 }
-
+@media (max-width: 1199px) {
+    .work-left {
+        bottom: 61%!important;
+    }
+    .whiteitem{
+        left: -7%!important;
+        top: -14%!important;
+    }
+}
+@media (max-width: 1399px) {
+    .work-left {
+        bottom: 57%;
+    }
+    .whiteitem{
+        left: -3%;
+        top: -13%;
+    }
+}
 @media (min-width: 1400px) {
     #services-content {
         margin-left: 10%;

@@ -5,16 +5,16 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
-  <link rel="manifest" href="./assets/favicon/site.webmanifest">
-  <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <title>JazuSoft</title>
-  <link rel="stylesheet" href="./fonts.css" type="text/css" />
-  <link rel="stylesheet" href="./styles.css" type="text/css" />
+  <link rel="stylesheet" href="/fonts.css" type="text/css" />
+  <link rel="stylesheet" href="/styles.css" type="text/css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <script>
@@ -170,7 +170,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light nav-header">
       <div class="container-fluid">
         <a class="navbar-brand logo-nav" href="#inicio-scroll"><img width="206" height="70"
-            src="./assets/SVG/logo/logo-07.svg" alt="logo"></a>
+            src="/assets/SVG/logo/logo-07.svg" alt="logo"></a>
         <button id="menu-hamb" class="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -223,13 +223,13 @@
           <div class="row" style="padding-top: 5rem;">
             <div class="col-md-6 d-none d-md-block" id="video">
               <div class="video-container">
-                <video src="./assets/images/inicio/video-sin-margen.mp4" disablePictureInPicture autoplay repeat muted
+                <video src="/assets/images/inicio/video-sin-margen.mp4" disablePictureInPicture autoplay repeat muted
                   preload="auto"></video>
               </div>
             </div>
             <div class="col-md-6" id="inicio-text">
               <div>
-                <img class="inicioimg" src="./assets/images/inicio/inicioimg.png" alt="inicio">
+                <img class="inicioimg" src="/assets/images/inicio/inicioimg.png" alt="inicio">
               </div>
             </div>
           </div>
@@ -240,59 +240,8 @@
               <h2 class="section-title">Ready to get our digital services?</h2>
             </div>
           </div>
-          <div class="row">
-            <div class="col box">
-              <div class="col-4 box-image">
-                <img class="serv-img" src="./assets/images/services/webapp.png" alt="webapp">
-              </div>
-              <div class="col-8">
-                <h6 class="box-header">Web, App & E-commerce Development</h6>
-                <p class="box-txt">
-                  Beautiful and Influential websites & apps that are mobile
-                  friendly quick to load and help drive sales giving you a solid
-                  presence online.
-                </p>
-              </div>
-            </div>
-            <div class="col box">
-              <div class="col-4 box-image">
-                <img src="./assets//images/services/infra.png" alt="infraestructure">
-              </div>
-              <div class="col-8">
-                <h6 class="box-header">Infrastructure</h6>
-                <p class="box-txt">
-                  Architecture Design and Implementation, Security, Cost /
-                  Benefit Analysis.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row" style="margin-bottom: 3.3rem;">
-            <div class="col box">
-              <div class="col-4 box-image">
-                <img class="serv-img" src="./assets/images/services/staff.png" alt="staff">
-              </div>
-              <div class="col-8">
-                <h6 class="box-header">Staff Augmentation</h6>
-                <p class="box-txt">
-                  Our Staff Augmentation Service provides the speed and
-                  professionalism you need in a dynamic and flexible manner,
-                  available at any phase in your project
-                </p>
-              </div>
-            </div>
-            <div class="col box">
-              <div class="col-4 box-image">
-                <img src="./assets/images/services/consulting.png" alt="consulting">
-              </div>
-              <div class="col-8">
-                <h6 class="box-header">Consulting</h6>
-                <p class="box-txt">
-                  A variety of experts helping you to move towards your
-                  objective
-                </p>
-              </div>
-            </div>
+          <div class="row" style="justify-content: center;">
+            <img  id="imgCar2" src="/assets/images/inicio/carousel2.png" alt="carousel2">
           </div>
         </div>
       </div>
@@ -314,11 +263,12 @@
       <div class="row">
         <h2 class="section-title" style="color: white;">Some of our clients</h2>
       </div>
-      <div class="row" style="justify-content: center; border-radius: 10px;">
+      <div class="row" id="workbig" style="justify-content: center; border-radius: 10px;">
         <div class="work-card">
           <div class="row" style="border-radius: 20px">
-            <div class="col-5" style="padding-right: 0;">
-              <img class="work-left" src="./assets/images/work/imgcardwork.png" alt="work">
+            <div class="col-5 card-left-work">
+              <img class="whiteitem" src="/assets/images/work/whitesome.png" alt="whiteitem">
+              <img class="work-left" src="/assets/images/work/fotocardclients.png" alt="work">
             </div>
             <div class="col-7 work-right">
               <div id="carouselEWorks" class="carousel slide" data-bs-ride="carousel">
@@ -400,10 +350,10 @@
   <section id="team">
     <div id="team-scroll"></div>
     <div class="cuadricula-teams d-none d-md-block">
-      <img class="cuad-teams" src="./assets/SVG/web-elements-03-cuadricula.svg" alt="cuadricula-teams" />
+      <img class="cuad-teams" src="/assets/SVG/web-elements-03-cuadricula.svg" alt="cuadricula-teams" />
     </div>
     <div class="background-img">
-      <img class="bc-img" src="./assets/SVG/rayos-bc.svg" alt="rayos" />
+      <img class="bc-img" src="/assets/SVG/rayos-bc.svg" alt="rayos" />
     </div>
     <div class="container">
       <div class="row">
@@ -418,7 +368,7 @@
               <div class="carousel-item active">
                 <div class="carrusel-team">
                   <div class="c-image">
-                    <img src="./assets/images/team/jjaramillo.webp" class="d-block w-100" alt="foto">
+                    <img src="/assets/images/team/jjaramillo.webp" class="d-block w-100" alt="foto">
                   </div>
                   <div class="c-desc">
                     <h6 class="modal-title-2">José Jaramillo</h6>
@@ -431,7 +381,7 @@
               <div class="carousel-item">
                 <div class="carrusel-team">
                   <div class="c-image">
-                    <img src="./assets/images/team/msanchez.webp" class="d-block w-100" alt="foto">
+                    <img src="/assets/images/team/msanchez.webp" class="d-block w-100" alt="foto">
                   </div>
                   <div class="c-desc">
                     <h6 class="modal-title-2">Maximiliano Sanchez</h6>
@@ -444,7 +394,7 @@
               <div class="carousel-item">
                 <div class="carrusel-team">
                   <div class="c-image">
-                    <img src="./assets/images/team/edecandido.webp" class="d-block w-100" alt="foto">
+                    <img src="/assets/images/team/edecandido.webp" class="d-block w-100" alt="foto">
                   </div>
                   <div class="c-desc">
                     <h6 class="modal-title-2">Ezequiel Decandido</h6>
@@ -457,7 +407,7 @@
               <div class="carousel-item">
                 <div class="carrusel-team">
                   <div class="c-image">
-                    <img src="./assets/images/team/ganora.webp" class="d-block w-100" alt="foto">
+                    <img src="/assets/images/team/ganora.webp" class="d-block w-100" alt="foto">
                   </div>
                   <div class="c-desc">
                     <h6 class="modal-title-2">José Ganora</h6>
@@ -487,7 +437,7 @@
             <div class="row">
               <div class="team-card col">
                 <a class="card-link">
-                  <img class="card-img" src="./assets/images/team/jjaramillo.webp" alt="team-card" />
+                  <img class="card-img" src="/assets/images/team/jjaramillo.webp" alt="team-card" />
                   <div class="card-text">
                     <h6 class="name-team">José Jaramillo</h6>
                     <p class="puesto">CEO</p>
@@ -496,7 +446,7 @@
               </div>
               <div class="team-card col">
                 <a class="card-link">
-                  <img class="card-img" src="./assets/images/team/msanchez.webp" alt="team-card" />
+                  <img class="card-img" src="/assets/images/team/msanchez.webp" alt="team-card" />
                   <div class="card-text">
                     <h6 class="name-team">Maximiliano Sanchez</h6>
                     <p class="puesto">Project Manager</p>
@@ -505,7 +455,7 @@
               </div>
               <div class="team-card col">
                 <a class="card-link">
-                  <img class="card-img" src="./assets/images/team/edecandido.webp" alt="team-card" />
+                  <img class="card-img" src="/assets/images/team/edecandido.webp" alt="team-card" />
                   <div class="card-text">
                     <h6 class="name-team">Ezequiel Decandido</h6>
                     <p class="puesto">Full Stack Developer</p>
@@ -514,7 +464,7 @@
               </div>
               <div class="team-card col">
                 <a class="card-link">
-                  <img class="card-img" src="./assets/images/team/ganora.webp" alt="team-card" />
+                  <img class="card-img" src="/assets/images/team/ganora.webp" alt="team-card" />
                   <div class="card-text">
                     <h6 class="name-team">José Ganora</h6>
                     <p class="puesto">Full Stack Developer</p>
@@ -529,7 +479,7 @@
   <section id="contact">
     <div id="contact-scroll"></div>
     <div class="flechas-contact d-none d-xl-block">
-      <img class="flechas" src="./assets/SVG/web-elements-05-mayorq.svg" alt="deco" />
+      <img class="flechas" src="/assets/SVG/web-elements-05-mayorq.svg" alt="deco" />
     </div>
     <div class="container">
       <div class="row ">
@@ -546,15 +496,15 @@
           </div>
           <div class="datos-contact d-none d-md-block">
             <div class="item-contact">
-              <img class="img-contact" src="./assets/SVG/phone-solid.svg" alt="phone" />
+              <img class="img-contact" src="/assets/SVG/phone-solid.svg" alt="phone" />
               <p class="text-contact">+54 9 351 661-4003</p>
             </div>
             <div class="item-contact">
-              <img class="img-contact" src="./assets/SVG/envelope-solid.svg" alt="email" />
+              <img class="img-contact" src="/assets/SVG/envelope-solid.svg" alt="email" />
               <p class="text-contact">hello@jazusoft.com</p>
             </div>
             <div class="item-contact">
-              <img class="img-contact" src="./assets/SVG/location-dot-solid.svg" alt="location" />
+              <img class="img-contact" src="/assets/SVG/location-dot-solid.svg" alt="location" />
               <p class="text-contact">Avenida Menendez Pidal 4055, Córdoba, Argentina</p>
             </div>
           </div>
@@ -583,9 +533,15 @@
       </div>
     </div>
     </div>
+    <div class="row">
+      <div class="col-md-2 offset-md-10 d-none d-xl-block">
+
+        <img class="img-flechas" src="/assets/SVG/2-flechas.svg" alt="2-flechas" />
+
+      </div>
+    </div>
   </section>
   </div>
-
   <footer id="footer">
     <div class="container">
       <div class="row">
@@ -598,12 +554,11 @@
             <p>hello@jazusoft.com</p>
             <p>+54 9 351 661-4003</p>
           </div>
-          <div class="social row justify-content-center">
+          <div class="social row">
             <a href="https://www.instagram.com/jazusoft/" target="_blank"><img class="social-img"
-                src="./assets/images/work/instagram.png" alt="instagram"></a>
+                src="/assets/images/work/Logo-instagram-sf.png" alt="instagram"></a>
             <a href="https://www.linkedin.com/company/jazusoft-sas/https://www.linkedin.com/company/jazusoft-sas/"
-              target="_blank"><img class="social-img" src="./assets/SVG/social-icons/social icons-linkedin.svg"
-                alt="linkedin"></a>
+              target="_blank"><img class="social-img" src="/assets/images/work/Logo-linkedin-sf.png" alt="linkedin"></a>
           </div>
         </div>
         <div class="col-md-4 d-none d-sm-block d-sm-none d-md-block">

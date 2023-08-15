@@ -213,454 +213,442 @@
     </header>
     <!-- INICIO -->
     <section id="inicio">
-        <div id="inicio-scroll"></div>
-        <!-- <div class="circle d-none d-md-block">
-        </div> -->
-        <div class="row">
-            <div class="col-md-6 d-none d-md-block" id="video">
-                <div class="video-container">
-                    <video src="/assets/images/inicio/video-sin-margen.mp4" disablePictureInPicture autoplay repeat
-                        muted preload="auto"></video>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row" style="padding-top: 5rem;">
+                <div class="col-md-6 d-none d-md-block" id="video">
+                  <div class="video-container">
+                    <video src="/assets/images/inicio/video-sin-margen.mp4" disablePictureInPicture autoplay repeat muted
+                      preload="auto"></video>
+                  </div>
                 </div>
-            </div>
-            <div class="col-md-6" id="inicio-text">
-                <div class="col">
-                    <div class="row-sm-2">
-                        <img class="triangleinicio" src="/assets/images/inicio/greentriangle.svg" alt="greenTriangle" />
-                    </div>
-                    <div class="row-sm-2">
-                        <img class="cuadricula" src="/assets/SVG/web-elements-03-cuadricula.svg" alt="cuadricula" />
-                    </div>
-                    <div class="row-sm-2">
-                        <h2 class="header-inicio">
-                            Boost your business.
-                        </h2>
-                    </div>
-                    <div class="row-sm-2">
-                        <h4 class="subheader-inicio">
-                            We build creative websites & apps.
-                        </h4>
-                    </div>
-                    <div class="row-sm-2">
-                        <img class="img2-inicio" src="/assets/images/inicio/img2.svg" alt="img2" />
-                    </div>
+                <div class="col-md-6" id="inicio-text">
+                  <div>
+                    <img class="inicioimg" src="/assets/images/inicio/inicioimg.png" alt="inicio">
+                  </div>
                 </div>
+              </div>
             </div>
+            <div class="carousel-item">
+              <div class="row" style="padding-top: 5rem;">
+                <div class="col-md-12">
+                  <h2 class="section-title">Ready to get our digital services?</h2>
+                </div>
+              </div>
+              <div class="row" style="justify-content: center;">
+                <img  id="imgCar2" src="/assets/images/inicio/carousel2.png" alt="carousel2">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-    </section>
-
-    <!-- SERVICES -->
-    <section id="services">
-        <div id="services-scroll"></div>
-        <div class="parallax d-none  d-md-block">
-            <div class="overlay"></div>
-            <div class="container container-data">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="contador-container">
-                            <div class="row">
-                                <div class="contador-container">
-                                    <div class="contador">
-                                        <p class="contador-number">+</p>
-                                        <p id="valueA" class="contador-number">0</p>
-                                    </div>
-                                    <div class="dato-contador">
-                                        <p class="contador-text">Proyectos</p>
-                                    </div>
-                                </div>
-                                <div class="contador-container">
-                                    <div class="contador">
-                                        <p class="contador-number">+</p>
-                                        <p id="valueB" class="contador-number">0</p>
-                                    </div>
-                                    <div class="dato-contador">
-                                        <p class="contador-text">Despliegues</p>
-                                    </div>
-                                </div>
-                                <div class="contador-container">
-                                    <div class="contador">
-                                        <p class="contador-number">+</p>
-                                        <p id="valueC" class="contador-number">0</p>
-                                    </div>
-                                    <div class="dato-contador">
-                                        <p class="contador-text">Tazas de café</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </section>
+      <section id="work">
+        <div id="work-scroll"></div>
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 offset-md-6">
-                    <div class="rayas d-none  d-md-block">
-                        <img class="img-rayas" src="/assets/images/services/rayas.svg" alt="rayas" />
-                    </div>
-                    <div class="container" id="services-content">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h2 class="section-title">¿Listo para obtener nuestros servicios digitales?</h2>
-                            </div>
-                        </div>
-                        <div class="row services-details">
-                            <div class="col-md-12">
-                                <div class="cuadricula-services row">
-                                    <div class="box">
-                                        <img class="box-img" src="/assets/images/services/engrane.svg" alt="engrane" />
-                                        <div class="box-circle" style="background-color: #f3ffa1"></div>
-                                        <h6 class="box-header">Web, App & E-commerce Development</h6>
-                                        <p class="box-txt">
-                                            Sitios web de diseño e influyentes y aplicaciones móviles
-                                            amigables, rápidas y ayuda a impulsar las ventas brindándole una sólida
-                                            presencia en línea.
-                                        </p>
-                                    </div>
-                                    <div class="box">
-                                        <img class="box-img" src="/assets/images/services/infraestructure.svg"
-                                            alt="engrane" />
-                                        <div class="box-circle" style="background-color: #9fffe5"></div>
-                                        <h6 class="box-header">Infrastructura</h6>
-                                        <p class="box-txt">
-                                            Diseño e Implementación de Arquitectura, Seguridad, Costo /
-                                            Análisis de beneficios.
-                                        </p>
-                                    </div>
-                                    <div class="box">
-                                        <img class="box-img" src="/assets/images/services/staffaugm.svg"
-                                            alt="engrane" />
-                                        <div class="box-circle" style="background-color: #e3b2ff"></div>
-                                        <h6 class="box-header">Aumento del personal</h6>
-                                        <p class="box-txt">
-                                            Nuestro Servicio de aumento de personal proporciona la velocidad y
-                                            profesionalidad que necesitas de forma dinámica y flexible,
-                                            disponible en cualquier fase de su proyecto
-                                        </p>
-                                    </div>
-                                    <div class="box">
-                                        <img class="box-img" src="/assets/images/services/consulting.svg"
-                                            alt="engrane" />
-                                        <div class="box-circle" style="background-color: #ffc2c2"></div>
-                                        <h6 class="box-header">Consultora</h6>
-                                        <p class="box-txt">
-                                            Una variedad de expertos ayudándole a avanzar hacia su
-                                            objetivo
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="row">
+            <h2 class="section-title" style="color: white;">Some of our clients</h2>
+          </div>
+          <div class="row" style="justify-content: center; border-radius: 10px;">
+            <div class="work-card">
+              <div class="row" style="border-radius: 20px">
+                <div class="col-5 card-left-work">
+                  <img class="whiteitem" src="/assets/images/work/whitesome.png" alt="whiteitem">
+                  <img class="work-left" src="/assets/images/work/fotocardclients.png" alt="work">
                 </div>
+                <div class="col-7 work-right">
+                  <div id="carouselEWorks" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselEWorks" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselEWorks" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselEWorks" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" style="height: 18rem;">
+                        <div class="work-card">
+                          <h6 class="work-header">Ravit Agro</h6>
+                          <p class="work-text">
+                            Our team was a part of the analysis, development and production start-up of the platform used to
+                            configure prediction
+                            models for agriculture. The main challenge was the treatment of thousands of data in each
+                            execution and millions of
+                            geolocation data that affect it, on the other hand each model implies the use of advanced
+                            mathematics to ensure a correct forecast.
+                          </p>
+                          <h6 class="work-header">Stoneridge</h6>
+                          <p class="work-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rem cumque
+                            deleniti corporis exercitationem
+                            assumenda necessitatibus! Sit distinctio accusamus natus laborum corporis beatae ipsam nobis
+                            quibusdam perspiciatis alias, delectus eius.q</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" style="height: 18rem;">
+                        <div class="work-card">
+                          <h6 class="work-header">Golden Key</h6>
+                          <p class="work-text">
+                            Development, maintenance, and innovation of all platforms used by the client, who is an
+                            international organization focused on graduates
+                            who are part of the top 15% of their field and wish to belong to the largest honor society in
+                            the world. They offer scholarships, trips,
+                            study abroad programs, and more.
+                          </p>
+                          <h6 class="work-header">Dr. Talks</h6>
+                          <p class="work-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, aliquid
+                            dolores
+                            , dolorum in esse voluptate ab aperiam laboriosam error reiciendis cumque porro praesentium
+                            labore culpa quisquam. Eius ullam a iste!</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" style="height: 18rem;">
+                        <div class="work-card">
+                          <h6 class="work-header">Holydemia</h6>
+                          <p class="work-text">
+                            Online web platform used as a Catholic academy to offer video-based courses, allowing
+                            participants to obtain their own certification. Integrated with payment systems and
+                            subscription services.
+                          </p>
+                          <h6 class="work-header">Decidata</h6>
+                          <p class="work-text">Online web platform that integrates propietary AI systems to manage models
+                            and visualize generated information in a user friendly manner.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselEWorks"
+                      data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEWorks"
+                      data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button> -->
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-    <section id="team">
+      </section>
+      <section id="team">
         <div id="team-scroll"></div>
         <div class="cuadricula-teams d-none d-md-block">
-            <img class="cuad-teams" src="/assets/SVG/web-elements-03-cuadricula.svg" alt="cuadricula-teams" />
+          <img class="cuad-teams" src="/assets/SVG/web-elements-03-cuadricula.svg" alt="cuadricula-teams" />
         </div>
         <div class="background-img">
-            <img class="bc-img" src="/assets/SVG/rayos-bc.svg" alt="rayos" />
+          <img class="bc-img" src="/assets/SVG/rayos-bc.svg" alt="rayos" />
         </div>
         <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="section-title">Our Team</h2>
+            </div>
+          </div>
+          <div class="carrusel row d-md-none">
+            <div class="col">
+              <div id="carouselTeamMobile" class="carousel slide" data-bs-interval="2000" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carrusel-team">
+                      <div class="c-image">
+                        <img src="/assets/images/team/jjaramillo.webp" class="d-block w-100" alt="foto">
+                      </div>
+                      <div class="c-desc">
+                        <h6 class="modal-title-2">José Jaramillo</h6>
+                        <p class="modal-subtitle">CEO</p>
+                        <p class="desc-text">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carrusel-team">
+                      <div class="c-image">
+                        <img src="/assets/images/team/msanchez.webp" class="d-block w-100" alt="foto">
+                      </div>
+                      <div class="c-desc">
+                        <h6 class="modal-title-2">Maximiliano Sanchez</h6>
+                        <p class="modal-subtitle">Project Manager</p>
+                        <p class="desc-text">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carrusel-team">
+                      <div class="c-image">
+                        <img src="/assets/images/team/edecandido.webp" class="d-block w-100" alt="foto">
+                      </div>
+                      <div class="c-desc">
+                        <h6 class="modal-title-2">Ezequiel Decandido</h6>
+                        <p class="modal-subtitle">Full Stack Developer</p>
+                        <p class="desc-text">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carrusel-team">
+                      <div class="c-image">
+                        <img src="/assets/images/team/ganora.webp" class="d-block w-100" alt="foto">
+                      </div>
+                      <div class="c-desc">
+                        <h6 class="modal-title-2">José Ganora</h6>
+                        <p class="modal-subtitle">Full Stack Developer</p>
+                        <p class="desc-text">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTeamMobile"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTeamMobile"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row team-details justify-content-center d-none d-md-flex ">
             <div class="row">
-                <div class="col-md-12">
-                    <h2 class="section-title">Nuestro Equipo</h2>
-                </div>
-            </div>
-            <div class="carrusel row d-md-none">
-                <div class="col">
-                    <div id="carouselTeamMobile" class="carousel slide" data-bs-interval="2000" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="carrusel-team">
-                                    <div class="c-image">
-                                        <img src="/assets/images/team/jjaramillo.webp" class="d-block w-100" alt="foto">
-                                    </div>
-                                    <div class="c-desc">
-                                        <h6 class="modal-title-2">José Jaramillo</h6>
-                                        <p class="modal-subtitle">CEO</p>
-                                        <p class="desc-text">
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="carrusel-team">
-                                    <div class="c-image">
-                                        <img src="/assets/images/team/msanchez.webp" class="d-block w-100" alt="foto">
-                                    </div>
-                                    <div class="c-desc">
-                                        <h6 class="modal-title-2">Maximiliano Sanchez</h6>
-                                        <p class="modal-subtitle">Project Manager</p>
-                                        <p class="desc-text">
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="carrusel-team">
-                                    <div class="c-image">
-                                        <img src="/assets/images/team/edecandido.webp" class="d-block w-100" alt="foto">
-                                    </div>
-                                    <div class="c-desc">
-                                        <h6 class="modal-title-2">Ezequiel Decandido</h6>
-                                        <p class="modal-subtitle">Full Stack Developer</p>
-                                        <p class="desc-text">
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="carrusel-team">
-                                    <div class="c-image">
-                                        <img src="/assets/images/team/ganora.webp" class="d-block w-100" alt="foto">
-                                    </div>
-                                    <div class="c-desc">
-                                        <h6 class="modal-title-2">José Ganora</h6>
-                                        <p class="modal-subtitle">Full Stack Developer</p>
-                                        <p class="desc-text">
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTeamMobile"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Anterior</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselTeamMobile"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Siguiente</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="row team-details justify-content-center d-none d-md-flex ">
+              <div class="col-md-12">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="team-card col">
-                                <a class="card-link">
-                                    <img class="card-img" src="/assets/images/team/jjaramillo.webp" alt="team-card" />
-                                    <div class="card-text">
-                                        <h6 class="name-team">José Jaramillo</h6>
-                                        <p class="puesto">CEO</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="team-card col">
-                                <a class="card-link">
-                                    <img class="card-img" src="/assets/images/team/msanchez.webp" alt="team-card" />
-                                    <div class="card-text">
-                                        <h6 class="name-team">Maximiliano Sanchez</h6>
-                                        <p class="puesto">Project Manager</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="team-card col">
-                                <a class="card-link">
-                                    <img class="card-img" src="/assets/images/team/edecandido.webp" alt="team-card" />
-                                    <div class="card-text">
-                                        <h6 class="name-team">Ezequiel Decandido</h6>
-                                        <p class="puesto">Full Stack Developer</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="team-card col">
-                                <a class="card-link">
-                                    <img class="card-img" src="/assets/images/team/ganora.webp" alt="team-card" />
-                                    <div class="card-text">
-                                        <h6 class="name-team">José Ganora</h6>
-                                        <p class="puesto">Full Stack Developer</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                  <div class="team-card col">
+                    <a class="card-link">
+                      <img class="card-img" src="/assets/images/team/jjaramillo.webp" alt="team-card" />
+                      <div class="card-text">
+                        <h6 class="name-team">José Jaramillo</h6>
+                        <p class="puesto">CEO</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="team-card col">
+                    <a class="card-link">
+                      <img class="card-img" src="/assets/images/team/msanchez.webp" alt="team-card" />
+                      <div class="card-text">
+                        <h6 class="name-team">Maximiliano Sanchez</h6>
+                        <p class="puesto">Project Manager</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="team-card col">
+                    <a class="card-link">
+                      <img class="card-img" src="/assets/images/team/edecandido.webp" alt="team-card" />
+                      <div class="card-text">
+                        <h6 class="name-team">Ezequiel Decandido</h6>
+                        <p class="puesto">Full Stack Developer</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="team-card col">
+                    <a class="card-link">
+                      <img class="card-img" src="/assets/images/team/ganora.webp" alt="team-card" />
+                      <div class="card-text">
+                        <h6 class="name-team">José Ganora</h6>
+                        <p class="puesto">Full Stack Developer</p>
+                      </div>
+                    </a>
+                  </div>
                 </div>
+              </div>
             </div>
-    </section>
-    <section id="contact">
+          </div>
+      </section>
+      <section id="contact">
         <div id="contact-scroll"></div>
         <div class="flechas-contact d-none d-xl-block">
-            <img class="flechas" src="/assets/SVG/web-elements-05-mayorq.svg" alt="deco" />
+          <img class="flechas" src="/assets/SVG/web-elements-05-mayorq.svg" alt="deco" />
         </div>
         <div class="container">
-            <div class="row ">
-                <div class="col-md-12">
-                    <h2 class="section-title">¿Necesitas un proyecto exitoso?</h2>
-                </div>
+          <div class="row ">
+            <div class="col-md-12">
+              <h2 class="section-title">Need a successfull project?</h2>
             </div>
-            <div class="row contact-details">
-                <div class="col-md-6">
-                    <div class="mapa d-none d-md-block">
-                        <img src="https://maps.googleapis.com/maps/api/staticmap?size=600x400&maptype=roadmap&markers=color:red|-31.3815278,-64.2407394&zoom=15&key=AIzaSyDpRfUG7CZAYibqQkkj1eKEkqPZZAtnGb4"
-                            alt="mapa"></img>
-                    </div>
-                    <div class="datos-contact d-none d-md-block">
-                        <div class="item-contact">
-                            <img class="img-contact" src="/assets/SVG/phone-solid.svg" alt="phone" />
-                            <p class="text-contact">+54 9 351 661-4003</p>
-                        </div>
-                        <div class="item-contact">
-                            <img class="img-contact" src="/assets/SVG/envelope-solid.svg" alt="email" />
-                            <p class="text-contact">hello@jazusoft.com</p>
-                        </div>
-                        <div class="item-contact">
-                            <img class="img-contact" src="/assets/SVG/location-dot-solid.svg" alt="location" />
-                            <p class="text-contact">Avenida Menendez Pidal 4055, Córdoba, Argentina</p>
-                        </div>
-                    </div>
+          </div>
+          <div class="row contact-details">
+            <div class="col-md-6">
+              <div class="mapa d-none d-md-block">
+                <img
+                  src="https://maps.googleapis.com/maps/api/staticmap?size=600x400&maptype=roadmap&markers=color:red|-31.3815278,-64.2407394&zoom=15&key=AIzaSyDpRfUG7CZAYibqQkkj1eKEkqPZZAtnGb4"
+                  alt="mapa"></img>
+              </div>
+              <div class="datos-contact d-none d-md-block">
+                <div class="item-contact">
+                  <img class="img-contact" src="/assets/SVG/phone-solid.svg" alt="phone" />
+                  <p class="text-contact">+54 9 351 661-4003</p>
                 </div>
-                <div class="col-md-6">
-                    <div class="head-right">
-                        <h2>
-                            <br />
-                            contactanos_
-                        </h2>
-                    </div>
-
-                    <div class="formulario">
-                        <form action="https://formbold.com/s/3qDDR" method="POST">
-                            <input class="input-form" type="email" name="email" placeholder="correo electrónico"
-                                required />
-                            <br />
-                            <input class="input-form" type="text" name="subject" placeholder="título" required />
-                            <br />
-                            <textarea class="textarea-form" name="message" id="message" cols="30" rows="auto"
-                                placeholder="mensaje" required></textarea>
-                            <br />
-                            <button class="btn-form" type="submit">ENVIAR</button>
-                        </form>
-                    </div>
+                <div class="item-contact">
+                  <img class="img-contact" src="/assets/SVG/envelope-solid.svg" alt="email" />
+                  <p class="text-contact">hello@jazusoft.com</p>
                 </div>
+                <div class="item-contact">
+                  <img class="img-contact" src="/assets/SVG/location-dot-solid.svg" alt="location" />
+                  <p class="text-contact">Avenida Menendez Pidal 4055, Córdoba, Argentina</p>
+                </div>
+              </div>
             </div>
+            <div class="col-md-6">
+              <div class="head-right">
+                <h2>
+                  stay <br />
+                  connected_
+                </h2>
+              </div>
+    
+              <div class="formulario">
+                <form action="https://formbold.com/s/3qDDR" method="POST">
+                  <input class="input-form" type="email" name="email" placeholder="mail" required />
+                  <br />
+                  <input class="input-form" type="text" name="subject" placeholder="subject" required />
+                  <br />
+                  <textarea class="textarea-form" name="message" id="message" cols="30" rows="auto" placeholder="message"
+                    required></textarea>
+                  <br />
+                  <button class="btn-form" type="submit">SEND</button>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
         </div>
         <div class="row">
-            <div class="col-md-2 offset-md-10 d-none d-xl-block">
-
-                <img class="img-flechas" src="/assets/SVG/2-flechas.svg" alt="2-flechas" />
-
-            </div>
+          <div class="col-md-2 offset-md-10 d-none d-xl-block">
+    
+            <img class="img-flechas" src="/assets/SVG/2-flechas.svg" alt="2-flechas" />
+    
+          </div>
         </div>
-    </section>
-    </div>
-
-    <footer id="footer">
+      </section>
+      </div>
+      <footer id="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="logo-footer">
-                        <img src="/assets/SVG/logo/logo-07.svg" class="logo" alt="logo">
-                    </div>
-                    <div class="data-footer">
-                        <p>Avenida Menendez Pidal 4055, Córdoba</p>
-                        <p>hello@jazusoft.com</p>
-                        <p>+54 9 351 661-4003</p>
-                    </div>
-                    <div class="social row justify-content-center">
-                        <a href="https://www.instagram.com/jazusoft/" target="_blank"><img class="social-img"
-                                src="/assets/SVG/social-icons/social icons-instagram.svg" alt="instagram"></a>
-                        <a href="https://www.linkedin.com/company/jazusoft-sas/https://www.linkedin.com/company/jazusoft-sas/"
-                            target="_blank"><img class="social-img"
-                                src="/assets/SVG/social-icons/social icons-linkedin.svg" alt="linkedin"></a>
-                    </div>
-                </div>
-                <div class="col-md-4 d-none d-sm-block d-sm-none d-md-block">
-                    <div class="footer-nav row">
-                        <a href="#inicio">Inicio</a>
-
-                        <a href="#services">Servicios</a>
-
-                        <a href="#work">Proyectos</a>
-
-                        <a href="#team">Nuestro Equipo</a>
-
-                        <a href="#contact">Contacto</a>
-                    </div>
-
-                </div>
-                <div class="col-md-4">
-                    <div class="header-footer-form">
-                        <p>SUSCRÍBETE A NUESTRO BOLETÍN</p>
-                    </div>
-                    <div class="footer-form">
-                        <!-- Begin Sendinblue Form -->
-                        <!-- START - We recommend to place the below code in head tag of your website html  -->
-                        <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
-                        <!--  END - We recommend to place the above code in head tag of your website html -->
-
-                        <!-- START - We recommend to place the below code where you want the form in your website html  -->
-                        <div class="sib-form p-0 " style="text-align: left; background-color: #ffffff; ">
-                            <div id="sib-form-container" class="sib-form-container">
-                                <div id="sib-container p-0 " class="sib-container--large sib-container--vertical"
-                                    style="text-align:left; background-color:rgba(255,255,255,1); max-width:540px; border-width:0px; border-color:#C0CCD9; border-style:solid;">
-                                    <form id="sib-form" method="POST"
-                                        action="https://dbab11d1.sibforms.com/serve/MUIEABRLehv22Ln--hVHScYbY-dsQjXk8ywZUbbvP_jFkbn09ZoLS61vC4Z0BWV3Yy7cNkWNQwgbhLFxGWgDzvAj_RnR48euEWoB3TmT4UGUhVCpmVBRO2sz_ZcTCqmCmhySPfDbTMQJbaGqxEbk2ysYg1kcklDXgOaVXyspC_uhxYkQFRocFyCUzzLFJHftT_1Mu8WBHdZ0aaB3">
-                                        <div style="padding: 8px 0;">
-                                            <div class="sib-input sib-form-block p-0 ">
-                                                <div class="form__entry entry_block">
-                                                    <div class="form__label-row ">
-                                                        <label class="entry__label"
-                                                            style="font-weight: 700; text-align:left; font-size:16px; text-align:left; font-weight:700; font-family:'Helvetica', sans-serif; color:#3c4858;"
-                                                            for="EMAIL" data-required="*">Correo electrónico</label>
-
-                                                        <div class="entry__field">
-                                                            <input style="font-family: 'BarlowCondensed';" class="input"
-                                                                type="text" id="EMAIL" name="EMAIL" autocomplete="off"
-                                                                data-required="true" required />
-                                                        </div>
-                                                    </div>
-
-                                                    <label class="entry__error entry__error--primary"
-                                                        style="font-size:16px; text-align:left; font-family:'Helvetica', sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
-                                                    </label>
-                                                    <label class="entry__specification"
-                                                        style="font-size:12px; text-align:left; font-family:'Helvetica', sans-serif; color:#8390A4; text-align:left">
-                                                        Proporcione su dirección de correo electrónico para suscribirse.
-                                                        Por ej. abc@xyz.com
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div style="padding: 8px 0;">
-                                            <div class="sib-form-block p-0 " style="text-align: left">
-                                                <button
-                                                    class="sib-form-block__button sib-form-block__button-with-loader"
-                                                    style="font-size:14px; text-align:left; font-weight:700; font-style:italic; font-family:'Helvetica', sans-serif; color:#FFFFFF; background-color:#12c89e; border-radius:20px; border-width:0px;"
-                                                    form="sib-form" type="submit">
-                                                    <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon"
-                                                        viewBox="0 0 512 512">
-                                                        <path
-                                                            d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
-                                                    </svg>
-                                                    SUSCRIBIRSE &gt;&gt;&gt;
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <input type="text" name="email_address_check" value="" class="input--hidden">
-                                        <input type="hidden" name="locale" value="en">
-                                        <input type="hidden" name="html_type" value="simple">
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- END - We recommend to place the below code where you want the form in your website html  -->
-                        <!-- End Sendinblue Form -->
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="logo-footer">
+                <img src="./assets/SVG/logo/logo-07.svg" class="logo" alt="logo">
+              </div>
+              <div class="data-footer">
+                <p>Avenida Menendez Pidal 4055, Córdoba</p>
+                <p>hello@jazusoft.com</p>
+                <p>+54 9 351 661-4003</p>
+              </div>
+              <div class="social row">
+                <a href="https://www.instagram.com/jazusoft/" target="_blank"><img class="social-img"
+                    src="/assets/images/work/Logo-instagram-sf.png" alt="instagram"></a>
+                <a href="https://www.linkedin.com/company/jazusoft-sas/https://www.linkedin.com/company/jazusoft-sas/"
+                  target="_blank"><img class="social-img" src="/assets/images/work/Logo-linkedin-sf.png" alt="linkedin"></a>
+              </div>
             </div>
+            <div class="col-md-4 d-none d-sm-block d-sm-none d-md-block">
+              <div class="footer-nav row">
+                <a href="#inicio">Home</a>
+    
+                <a href="#services">Services</a>
+    
+                <a href="#work">Projects</a>
+    
+                <a href="#team">Our Team</a>
+    
+                <a href="#contact">Contact</a>
+              </div>
+    
+            </div>
+            <div class="col-md-4">
+              <div class="header-footer-form">
+                <p>SUSCRIBE TO OUR NEWSLETTER</p>
+              </div>
+              <div class="footer-form">
+                <!-- Begin Sendinblue Form -->
+                <!-- START - We recommend to place the below code in head tag of your website html  -->
+                <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+                <!--  END - We recommend to place the above code in head tag of your website html -->
+    
+                <!-- START - We recommend to place the below code where you want the form in your website html  -->
+                <div class="sib-form p-0 " style="text-align: left; background-color: #ffffff; ">
+                  <div id="sib-form-container" class="sib-form-container">
+                    <div id="sib-container p-0 " class="sib-container--large sib-container--vertical"
+                      style="text-align:left; background-color:rgba(255,255,255,1); max-width:540px; border-width:0px; border-color:#C0CCD9; border-style:solid;">
+                      <form id="sib-form" method="POST"
+                        action="https://dbab11d1.sibforms.com/serve/MUIEABRLehv22Ln--hVHScYbY-dsQjXk8ywZUbbvP_jFkbn09ZoLS61vC4Z0BWV3Yy7cNkWNQwgbhLFxGWgDzvAj_RnR48euEWoB3TmT4UGUhVCpmVBRO2sz_ZcTCqmCmhySPfDbTMQJbaGqxEbk2ysYg1kcklDXgOaVXyspC_uhxYkQFRocFyCUzzLFJHftT_1Mu8WBHdZ0aaB3">
+                        <div style="padding: 8px 0;">
+                          <div class="sib-input sib-form-block p-0 ">
+                            <div class="form__entry entry_block">
+                              <div class="form__label-row ">
+                                <label class="entry__label"
+                                  style="font-weight: 700; text-align:left; font-size:16px; text-align:left; font-weight:700; font-family:'Helvetica', sans-serif; color:#3c4858;"
+                                  for="EMAIL" data-required="*">Your email</label>
+    
+                                <div class="entry__field">
+                                  <input style="font-family: 'BarlowCondensed';" class="input" type="text" id="EMAIL"
+                                    name="EMAIL" autocomplete="off" data-required="true" required />
+                                </div>
+                              </div>
+    
+                              <label class="entry__error entry__error--primary"
+                                style="font-size:16px; text-align:left; font-family:'Helvetica', sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+                              </label>
+                              <label class="entry__specification"
+                                style="font-size:12px; text-align:left; font-family:'Helvetica', sans-serif; color:#8390A4; text-align:left">
+                                Provide your email address to subscribe. For e.g abc@xyz.com
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div style="padding: 8px 0;">
+                          <div class="sib-form-block p-0 " style="text-align: left">
+                            <button class="sib-form-block__button sib-form-block__button-with-loader"
+                              style="font-size:14px; text-align:left; font-weight:700; font-style:italic; font-family:'Helvetica', sans-serif; color:#FFFFFF; background-color:#12c89e; border-radius:20px; border-width:0px;"
+                              form="sib-form" type="submit">
+                              <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon"
+                                viewBox="0 0 512 512">
+                                <path
+                                  d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
+                              </svg>
+                              SUBSCRIBE &gt;&gt;&gt;
+                            </button>
+                          </div>
+                        </div>
+                        <input type="text" name="email_address_check" value="" class="input--hidden">
+                        <input type="hidden" name="locale" value="en">
+                        <input type="hidden" name="html_type" value="simple">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- END - We recommend to place the below code where you want the form in your website html  -->
+                <!-- End Sendinblue Form -->
+              </div>
+            </div>
+          </div>
         </div>
         <div class="bottom-br row">
-            <p>Todos los derechos reservados. Jazusoft <span id="anio"></span></p>
+          <p>All rights reserved. Jazusoft <span id="anio"></span></p>
         </div>
-    </footer>
+      </footer>
 
     <!-- MODALS -->
 
