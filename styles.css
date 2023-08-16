@@ -337,7 +337,7 @@ section {
 
 #work {
     background-color: rgba(21, 21, 49, 255) !important;
-    background-image: url(./assets/images/work/fondoclients.png);
+    background-image: url(./assets/images/work/fondowork.png);
 }
 
 .work-header {
@@ -350,7 +350,7 @@ section {
 .work-card {
     padding: 1rem;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 
 .work-text {
@@ -565,6 +565,9 @@ section {
     left: 0;
     width: 100%;
 
+}
+#workbig{
+    padding-top: 7rem!important;
 }
 
 #work .card .details button {
@@ -1189,6 +1192,7 @@ input:focus {
 
     #workbig {
         display: none;
+
     }
 
     #work-details {
