@@ -61,3 +61,24 @@ function idioma(){
         location.href = '../index.html';
     }
 }
+
+// Obtener la referencia a la imagen
+const image = document.getElementById('imgCar2');
+
+// Función para ajustar el tamaño de la imagen
+function adjustImageSize() {
+  const screenWidth = window.innerWidth;
+  const extraHeight = Math.floor((screenWidth - 1316) / 3.75); // Calcula el aumento de altura
+  
+  // Calcular la nueva altura sumando el extraHeight
+  const newHeight = 199 + extraHeight;
+  
+  // Asegurarse de que la altura no sea negativa
+  if (newHeight > 0) {
+    image.style.height = `${newHeight}px`;
+  }
+}
+
+// Ejecutar la función al cargar la página y al cambiar el tamaño de la ventana
+adjustImageSize();
+window.addEventListener('resize', adjustImageSize);
