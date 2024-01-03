@@ -82,3 +82,4 @@ function adjustImageSize() {
 // Ejecutar la función al cargar la página y al cambiar el tamaño de la ventana
 adjustImageSize();
 window.addEventListener('resize', adjustImageSize);
+
